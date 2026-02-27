@@ -1,4 +1,4 @@
-import { Hero, SearchBar, Ticker } from "@/components";
+import { Hero, SearchBar, Ticker, Products } from "@/components";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Hero />
       <Ticker />
       <SearchBar />
+      <Products />
     </div>
   );
 }
