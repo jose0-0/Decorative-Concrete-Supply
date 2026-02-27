@@ -89,7 +89,7 @@ const Nav = () => {
               DCS
             </div>
             <span className="hidden xl:inline font-head font-black text-lg uppercase tracking-wide text-stone-900 leading-none">
-              Decorative <span className="text-brand">Concrete</span>
+              Decorative Concrete <span className="text-brand">Supply</span>
             </span>
           </Link>
 
