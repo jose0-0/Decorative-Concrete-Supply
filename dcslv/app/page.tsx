@@ -5,6 +5,7 @@ import {
   Products,
   Whydcs,
   Services,
+  Vendors,
 } from "@/components";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Products />
       <Whydcs />
       <Services />
+      <Vendors />
     </div>
   );
 }
