@@ -89,7 +89,7 @@ const Nav = () => {
               DCS
             </div>
             <span className="font-head font-black text-lg uppercase tracking-wide text-stone-900 leading-none">
-              Decorative <span className="text-brand">Concrete</span>
+              Decorative Concrete <span className="text-brand">Supply</span>
             </span>
           </Link>
 
@@ -106,7 +106,7 @@ const Nav = () => {
             ))}
           </div>
 
-          {/* Desktop CTAs — hidden on tablet (handled above), visible on desktop (xl+) */}
+          {/* Desktop CTAs */}
           <div className="hidden xl:flex items-center gap-2.5 shrink-0">
             <Link
               href="https://www.google.com/search?q=decorative+concrete+supply+las+vegas"
@@ -125,7 +125,7 @@ const Nav = () => {
             </Link>
           </div>
 
-          {/* Hamburger button — hidden on desktop (xl+), visible on tablet/mobile */}
+          {/* Hamburger button */}
           <button
             onClick={toggleMenu}
             aria-label={isOpen ? "Close menu" : "Open menu"}
