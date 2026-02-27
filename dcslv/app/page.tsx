@@ -6,6 +6,7 @@ import {
   Whydcs,
   Services,
   Vendors,
+  Testimonials,
 } from "@/components";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Whydcs />
       <Services />
       <Vendors />
+      <Testimonials />
     </div>
   );
 }

@@ -6,5 +6,16 @@ import Products from "./Products";
 import Whydcs from "./Whydcs";
 import Services from "./Services";
 import Vendors from "./Vendors";
+import Testimonials from "./Testimonials";
 
-export { Nav, Hero, Ticker, SearchBar, Products, Whydcs, Services, Vendors };
+export {
+  Nav,
+  Hero,
+  Ticker,
+  SearchBar,
+  Products,
+  Whydcs,
+  Services,
+  Vendors,
+  Testimonials,
+};
