@@ -79,7 +79,7 @@ const Nav = () => {
           isScrolled ? "shadow-md" : ""
         }`}
       >
-        <div className="mx-auto px-6 h-16 flex items-center justify-between gap-4">
+        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between gap-4">
           {/* Logo */}
           <Link
             href="https://dcslv.net/"
@@ -88,8 +88,8 @@ const Nav = () => {
             <div className="w-9 h-9 bg-brand rounded flex items-center justify-center text-white font-head font-black text-sm tracking-tight">
               DCS
             </div>
-            <span className="font-head font-black text-lg uppercase tracking-wide text-stone-900 leading-none">
-              Decorative Concrete <span className="text-brand">Supply</span>
+            <span className="hidden xl:inline font-head font-black text-lg uppercase tracking-wide text-stone-900 leading-none">
+              Decorative <span className="text-brand">Concrete</span>
             </span>
           </Link>
 
@@ -106,7 +106,26 @@ const Nav = () => {
             ))}
           </div>
 
-          {/* Desktop CTAs */}
+          {/* CTAs — visible on tablet alongside hamburger, hidden on desktop (xl+) when full nav appears */}
+          <div className="hidden md:flex xl:hidden items-center gap-2.5 shrink-0">
+            <Link
+              href="https://www.google.com/search?q=decorative+concrete+supply+las+vegas"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 border border-stone-300 rounded text-stone-700 hover:border-stone-500 text-xs font-semibold tracking-widest uppercase transition-all whitespace-nowrap flex items-center gap-1.5"
+            >
+              <StarIcon className="w-3 h-3 text-gold fill-current" />
+              Reviews
+            </Link>
+            <Link
+              href="https://dcslv.net/contact-us-2/"
+              className="px-4 py-2 bg-brand hover:bg-brand-dark rounded text-white text-xs font-semibold tracking-widest uppercase transition-colors whitespace-nowrap"
+            >
+              Contact Us
+            </Link>
+          </div>
+
+          {/* Desktop CTAs — hidden on tablet (handled above), visible on desktop (xl+) */}
           <div className="hidden xl:flex items-center gap-2.5 shrink-0">
             <Link
               href="https://www.google.com/search?q=decorative+concrete+supply+las+vegas"
@@ -125,7 +144,7 @@ const Nav = () => {
             </Link>
           </div>
 
-          {/* Hamburger button */}
+          {/* Hamburger button — hidden on desktop (xl+), visible on tablet/mobile */}
           <button
             onClick={toggleMenu}
             aria-label={isOpen ? "Close menu" : "Open menu"}
