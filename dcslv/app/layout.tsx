@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Nav } from "@/components";
+import { Footer, Nav } from "@/components";
 import RevealProvider from "@/components/RevealProvider";
 import "./globals.css";
 
@@ -32,6 +32,7 @@ export default function RootLayout({
         <Nav />
         <RevealProvider />
         {children}
+        <Footer />
       </body>
     </html>
   );

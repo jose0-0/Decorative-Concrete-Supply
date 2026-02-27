@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import Promostrip from "./Promostrip";
 import Locations from "./Locations";
 import FAQ from "./FAQ";
+import Footer from "./Footer";
 
 export {
   Nav,
@@ -24,4 +25,5 @@ export {
   Promostrip,
   Locations,
   FAQ,
+  Footer,
 };
