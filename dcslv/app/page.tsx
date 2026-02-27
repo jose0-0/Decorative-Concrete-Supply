@@ -8,6 +8,7 @@ import {
   Vendors,
   Testimonials,
   Promostrip,
+  Locations,
 } from "@/components";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Vendors />
       <Testimonials />
       <Promostrip />
+      <Locations />
     </div>
   );
 }

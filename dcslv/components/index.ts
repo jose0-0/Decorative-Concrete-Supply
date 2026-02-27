@@ -8,6 +8,7 @@ import Services from "./Services";
 import Vendors from "./Vendors";
 import Testimonials from "./Testimonials";
 import Promostrip from "./Promostrip";
+import Locations from "./Locations";
 
 export {
   Nav,
@@ -20,4 +21,5 @@ export {
   Vendors,
   Testimonials,
   Promostrip,
+  Locations,
 };
