@@ -586,7 +586,7 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Epoxy Products",
-    href: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
+    href: "/Epoxy-products",
   },
   { label: "Sealer", href: "https://dcslv.net/sealer-in-las-vegas-nevada/" },
   {
