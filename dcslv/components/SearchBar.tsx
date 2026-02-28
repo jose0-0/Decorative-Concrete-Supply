@@ -47,7 +47,7 @@ const pages: Page[] = [
     title: "Sealer",
     description:
       "High-quality sealers for driveways, patios, and industrial floors.",
-    href: "https://dcslv.net/sealer-in-las-vegas-nevada/",
+    href: "/Sealer",
     keywords: [
       "concrete sealer",
       "acrylic sealer",

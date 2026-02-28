@@ -31,7 +31,7 @@ const columns: FooterColumn[] = [
       },
       {
         label: "Sealer",
-        href: "https://dcslv.net/sealer-in-las-vegas-nevada/",
+        href: "/Sealer",
       },
       {
         label: "Pool Deck",

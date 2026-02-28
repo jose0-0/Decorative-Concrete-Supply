@@ -588,7 +588,7 @@ const relatedProducts = [
     label: "Epoxy Products",
     href: "/Epoxy-products",
   },
-  { label: "Sealer", href: "https://dcslv.net/sealer-in-las-vegas-nevada/" },
+  { label: "Sealer", href: "/Sealer" },
   {
     label: "Stains & Dyes",
     href: "https://dcslv.net/stains-in-las-vegas-nevada/",

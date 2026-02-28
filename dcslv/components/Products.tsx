@@ -64,7 +64,7 @@ const products: Product[] = [
     title: "Sealer",
     description:
       "High-quality sealers for driveways, patios, and industrial floors.",
-    href: "https://dcslv.net/sealer-in-las-vegas-nevada/",
+    href: "/Sealer",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
