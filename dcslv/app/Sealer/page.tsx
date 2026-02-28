@@ -500,7 +500,7 @@ const relatedProducts = [
   },
   {
     label: "Pool Deck",
-    href: "https://dcslv.net/pool-deck-in-las-vegas-nevada/",
+    href: "/Pool-deck",
   },
   { label: "Waterproofing", href: "https://dcslv.net/water-proofing-systems/" },
   { label: "Concrete Stamps", href: "https://dcslv.net/stamps-2/" },

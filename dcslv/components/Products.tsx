@@ -82,7 +82,7 @@ const products: Product[] = [
     title: "Pool Deck",
     description:
       "Create safe, beautiful poolscapes with our decorative pool deck options.",
-    href: "https://dcslv.net/pool-deck-in-las-vegas-nevada/",
+    href: "/Pool-deck",
     icon: (
       <svg
         className="w-5 h-5 text-brand"

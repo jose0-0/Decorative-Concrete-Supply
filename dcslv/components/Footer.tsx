@@ -35,7 +35,7 @@ const columns: FooterColumn[] = [
       },
       {
         label: "Pool Deck",
-        href: "https://dcslv.net/pool-deck-in-las-vegas-nevada/",
+        href: "/Pool-deck",
       },
       {
         label: "Waterproofing",
