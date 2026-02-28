@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     title: "Epoxy Products in Las Vegas — Decorative Concrete Supply",
     description:
       "Premium epoxy coatings, flakes, metallics & vapor seal primers. Two Las Vegas locations. Veteran-owned & operated.",
-    url: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
+    url: "/Epoxy-products",
     siteName: "Decorative Concrete Supply",
     locale: "en_US",
     type: "website",
   },
   alternates: {
-    canonical: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
+    canonical: "/Epoxy-products",
   },
 };
 
@@ -352,7 +352,7 @@ export default function EpoxyProductsPage() {
             name: "Decorative Concrete Supply",
             description:
               "Premium epoxy coatings, flakes, metallics and concrete supplies in Las Vegas, NV.",
-            url: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
+            url: "/Epoxy-products",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",

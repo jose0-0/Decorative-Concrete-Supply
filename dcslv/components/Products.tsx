@@ -25,7 +25,7 @@ const products: Product[] = [
     title: "Epoxy Supplies",
     description:
       "Premium epoxy in a variety of colors and finishes for residential and commercial floors.",
-    href: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
+    href: "/Epoxy-products",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -361,7 +361,7 @@ export default function Products() {
             Our <span className="text-brand">Products</span>
           </h2>
         </div>
-        <Link
+        {/* <Link
           href="https://dcslv.net/"
           className="font-head font-bold text-sm uppercase tracking-widest text-brand flex items-center gap-2 group transition-all"
         >
@@ -369,7 +369,7 @@ export default function Products() {
           <span className="group-hover:translate-x-1 transition-transform inline-block">
             →
           </span>
-        </Link>
+        </Link> */}
       </div>
 
       {/* Product grid */}

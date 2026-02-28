@@ -23,7 +23,7 @@ const columns: FooterColumn[] = [
     links: [
       {
         label: "Epoxy Products",
-        href: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
+        href: "/Epoxy-products",
       },
       {
         label: "Overlay / Repair",

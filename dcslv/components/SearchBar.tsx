@@ -22,7 +22,7 @@ const pages: Page[] = [
     title: "Epoxy Products",
     description:
       "Premium epoxy in a variety of colors and finishes for residential and commercial floors.",
-    href: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
+    href: "/Epoxy-products/",
     keywords: [
       "epoxy chips",
       "epoxy flakes",

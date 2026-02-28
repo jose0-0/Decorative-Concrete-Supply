@@ -5,7 +5,7 @@ import Link from "next/link";
 const navLinks = [
   {
     label: "Epoxy",
-    href: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
+    href: "/Epoxy-products",
   },
   { label: "Overlay", href: "https://dcslv.net/overlay-in-las-vegas-nevada/" },
   { label: "Sealer", href: "https://dcslv.net/sealer-in-las-vegas-nevada/" },
@@ -81,10 +81,7 @@ const Nav = () => {
       >
         <div className="mx-auto px-6 h-16 flex items-center justify-between gap-4">
           {/* Logo */}
-          <Link
-            href="https://dcslv.net/"
-            className="flex items-center gap-2.5 shrink-0"
-          >
+          <Link href="/" className="flex items-center gap-2.5 shrink-0">
             <div className="w-9 h-9 bg-brand rounded flex items-center justify-center text-white font-head font-black text-sm tracking-tight">
               DCS
             </div>
