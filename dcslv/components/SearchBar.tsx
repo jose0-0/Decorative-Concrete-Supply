@@ -34,7 +34,7 @@ const pages: Page[] = [
   {
     title: "Overlay & Repair",
     description: "Transform worn concrete surfaces without costly replacement.",
-    href: "https://dcslv.net/overlay-in-las-vegas-nevada/",
+    href: "/Overlay",
     keywords: [
       "overlay",
       "repair",

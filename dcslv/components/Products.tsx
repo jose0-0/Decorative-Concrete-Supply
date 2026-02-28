@@ -44,7 +44,7 @@ const products: Product[] = [
     title: "Overlay / Repair",
     description:
       "Transform worn concrete into stunning surfaces without costly replacement.",
-    href: "https://dcslv.net/overlay-in-las-vegas-nevada/",
+    href: "/Overlay",
     icon: (
       <svg
         className="w-5 h-5 text-brand"

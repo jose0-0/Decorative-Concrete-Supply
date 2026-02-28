@@ -7,7 +7,7 @@ const navLinks = [
     label: "Epoxy",
     href: "/Epoxy-products",
   },
-  { label: "Overlay", href: "https://dcslv.net/overlay-in-las-vegas-nevada/" },
+  { label: "Overlay", href: "/Overlay" },
   { label: "Sealer", href: "https://dcslv.net/sealer-in-las-vegas-nevada/" },
   {
     label: "Pool Deck",

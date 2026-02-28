@@ -27,7 +27,7 @@ const columns: FooterColumn[] = [
       },
       {
         label: "Overlay / Repair",
-        href: "https://dcslv.net/overlay-in-las-vegas-nevada/",
+        href: "/Overlay",
       },
       {
         label: "Sealer",

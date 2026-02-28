@@ -315,7 +315,7 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Overlay / Repair",
-    href: "https://dcslv.net/overlay-in-las-vegas-nevada/",
+    href: "/Overlay",
   },
   { label: "Sealer", href: "https://dcslv.net/sealer-in-las-vegas-nevada/" },
   {
