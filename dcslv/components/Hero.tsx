@@ -54,7 +54,7 @@ const Hero = () => {
               Contact Us
             </Link>
             <Link
-              href="https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/"
+              href="/Machine-rentals"
               className="px-7 py-3.5 border-2 border-stone-300 hover:border-stone-500 text-stone-700 font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
             >
               Rental Machinery

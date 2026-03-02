@@ -17,7 +17,7 @@ interface Service {
 const services: Service[] = [
   {
     number: "01",
-    title: "Equipment Rentals",
+    title: "Machine Rentals",
     description:
       "Walk-behind grinders and vacuums available at both locations — we deliver and pick up for your convenience.",
     icon: (
@@ -161,7 +161,7 @@ const Services = () => {
             </h2>
           </div>
           <Link
-            href="https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/"
+            href="/Machine-rentals"
             className="font-head font-bold text-sm uppercase tracking-widest text-brand flex items-center gap-2 group"
           >
             All Services{" "}

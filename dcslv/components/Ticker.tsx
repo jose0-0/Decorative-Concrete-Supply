@@ -8,7 +8,7 @@ const items: string[] = [
   "Waterproofing",
   "Concrete Stamps",
   "Stains & Dyes",
-  "Equipment Rentals",
+  "Machine Rentals",
   "Rebar & Expansion",
   "Power Tools",
   "Color Hardener",

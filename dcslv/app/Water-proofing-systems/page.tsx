@@ -487,8 +487,8 @@ const relatedProducts = [
     href: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
   },
   {
-    label: "Equipment Rentals",
-    href: "https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/",
+    label: "Machine Rentals",
+    href: "/Machine-rentals",
   },
 ];
 const page = () => {

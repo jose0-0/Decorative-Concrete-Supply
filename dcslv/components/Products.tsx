@@ -310,10 +310,10 @@ const products: Product[] = [
     ),
   },
   {
-    title: "Equipment Rentals",
+    title: "Machine Rentals",
     description:
       "Walk-behind grinder and vacuum rentals — we deliver and pick up.",
-    href: "https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/",
+    href: "/Machine-rentals",
     cta: "Rent Now →",
     featured: true,
     icon: (

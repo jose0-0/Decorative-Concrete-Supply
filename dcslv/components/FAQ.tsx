@@ -10,12 +10,12 @@ const faqs: FaqItem[] = [
   {
     question: "What does Decorative Concrete Supply offer?",
     answer:
-      "We offer a comprehensive range of top-quality concrete supplies, including concrete mixes, additives, epoxy supplies, sealers, overlays, stains, construction tools, waterproofing solutions, and more — plus equipment rentals.",
+      "We offer a comprehensive range of top-quality concrete supplies, including concrete mixes, additives, epoxy supplies, sealers, overlays, stains, construction tools, waterproofing solutions, and more — plus Machine rentals.",
   },
   {
-    question: "Can I rent construction equipment from DCS?",
+    question: "Can I rent construction machines from DCS?",
     answer:
-      "Absolutely! We provide construction equipment rentals at both locations. Walk-behind grinders and vacuums are available, and we deliver and pick up. Surface Prep Rentals has closed its storefront, but rentals continue in-house at both DCS locations.",
+      "Absolutely! We provide construction Machine rentals at both locations. Walk-behind grinders and vacuums are available, and we deliver and pick up. Surface Prep Rentals has closed its storefront, but rentals continue in-house at both DCS locations.",
   },
   {
     question: "How is the quality of your products assured?",

@@ -16,8 +16,8 @@ const navLinks = [
   { label: "Waterproofing", href: "/Water-proofing-systems" },
   { label: "Stains", href: "/Stains" },
   {
-    label: "Rentals",
-    href: "https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/",
+    label: "Machine Rentals",
+    href: "/Machine-rentals",
   },
   { label: "Tools", href: "https://dcslv.net/hand-tools/" },
 ];

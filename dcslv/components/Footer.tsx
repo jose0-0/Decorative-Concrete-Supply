@@ -63,8 +63,8 @@ const columns: FooterColumn[] = [
     heading: "Services & More",
     links: [
       {
-        label: "Equipment Rentals",
-        href: "https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/",
+        label: "Machine Rentals",
+        href: "/Machine-rentals",
       },
       { label: "Stamp Rentals", href: "https://dcslv.net/stamps-2/" },
       {

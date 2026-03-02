@@ -599,8 +599,8 @@ const relatedProducts = [
   },
   { label: "Waterproofing", href: "/Water-proofing-systems" },
   {
-    label: "Equipment Rentals",
-    href: "https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/",
+    label: "Machine Rentals",
+    href: "/Machine-rentals",
   },
 ];
 

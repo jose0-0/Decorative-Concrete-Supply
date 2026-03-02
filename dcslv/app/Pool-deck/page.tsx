@@ -422,8 +422,8 @@ const relatedProducts = [
     href: "/Stains",
   },
   {
-    label: "Equipment Rentals",
-    href: "https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/",
+    label: "Machine Rentals",
+    href: "/Machine-rentals",
   },
 ];
 const page = () => {

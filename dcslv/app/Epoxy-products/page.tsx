@@ -331,8 +331,8 @@ const relatedProducts = [
     href: "https://dcslv.net/concrete-and-products/",
   },
   {
-    label: "Equipment Rentals",
-    href: "https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/",
+    label: "Machine Rentals",
+    href: "/Machine-rentals",
   },
 ];
 
