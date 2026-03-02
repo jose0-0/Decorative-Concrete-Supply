@@ -101,7 +101,7 @@ const pages: Page[] = [
     title: "Stains & Dyes",
     description:
       "Integral colors, acid stains, and dyes to add lasting color to any surface.",
-    href: "https://dcslv.net/stains-in-las-vegas-nevada/",
+    href: "/Stains",
     keywords: [
       "acid stain",
       "concrete stain",

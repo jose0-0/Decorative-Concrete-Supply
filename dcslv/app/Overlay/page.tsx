@@ -591,7 +591,7 @@ const relatedProducts = [
   { label: "Sealer", href: "/Sealer" },
   {
     label: "Stains & Dyes",
-    href: "https://dcslv.net/stains-in-las-vegas-nevada/",
+    href: "/Stains",
   },
   {
     label: "Pool Deck",

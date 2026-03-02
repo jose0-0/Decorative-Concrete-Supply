@@ -43,7 +43,7 @@ const columns: FooterColumn[] = [
       },
       {
         label: "Stains",
-        href: "https://dcslv.net/stains-in-las-vegas-nevada/",
+        href: "/Stains",
       },
       {
         label: "Surface Retarder",

@@ -419,7 +419,7 @@ const relatedProducts = [
   { label: "Deck Drain / Forms", href: "https://dcslv.net/deck-drain/" },
   {
     label: "Stains & Dyes",
-    href: "https://dcslv.net/stains-in-las-vegas-nevada/",
+    href: "/Stains",
   },
   {
     label: "Equipment Rentals",

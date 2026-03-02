@@ -140,7 +140,7 @@ const products: Product[] = [
     title: "Stains & Dyes",
     description:
       "Integral colors, acid stains, and dyes to add lasting color to any surface.",
-    href: "https://dcslv.net/stains-in-las-vegas-nevada/",
+    href: "/Stains",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
