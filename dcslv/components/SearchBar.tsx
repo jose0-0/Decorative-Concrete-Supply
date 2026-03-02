@@ -180,7 +180,7 @@ const pages: Page[] = [
   {
     title: "Hand Tools",
     description: "Hand tools, brushes, floats, screeds, trowels and more.",
-    href: "https://dcslv.net/hand-tools/",
+    href: "/Tools/",
     keywords: [
       "hand tools",
       "float",

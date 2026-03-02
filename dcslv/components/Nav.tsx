@@ -19,7 +19,7 @@ const navLinks = [
     label: "Machine Rentals",
     href: "/Machine-rentals",
   },
-  { label: "Tools", href: "https://dcslv.net/hand-tools/" },
+  { label: "Tools", href: "/Tools" },
 ];
 
 const mobileLinks = [

@@ -257,7 +257,7 @@ const products: Product[] = [
   {
     title: "Tools",
     description: "Hand tools, brushes, floats, screeds and more.",
-    href: "https://dcslv.net/hand-tools/",
+    href: "/Tools",
     icon: (
       <svg
         className="w-5 h-5 text-brand"

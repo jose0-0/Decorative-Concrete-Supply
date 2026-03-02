@@ -412,14 +412,14 @@ const relatedProducts = [
   { label: "Stamp Rentals", href: "https://dcslv.net/stamps-2/" },
   {
     label: "Epoxy Products",
-    href: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
+    href: "/Epoxy-products",
   },
   {
     label: "Overlay / Repair",
-    href: "https://dcslv.net/overlay-in-las-vegas-nevada/",
+    href: "/Overlay",
   },
-  { label: "Sealer", href: "https://dcslv.net/sealer-in-las-vegas-nevada/" },
-  { label: "Tools", href: "https://dcslv.net/hand-tools/" },
+  { label: "Sealer", href: "/Sealer" },
+  { label: "Tools", href: "/Tools" },
   { label: "Sprayers", href: "https://dcslv.net/hoses-and-sprayers/" },
 ];
 const page = () => {
