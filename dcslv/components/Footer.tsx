@@ -39,7 +39,7 @@ const columns: FooterColumn[] = [
       },
       {
         label: "Waterproofing",
-        href: "https://dcslv.net/water-proofing-systems/",
+        href: "/Water-proofing-systems",
       },
       {
         label: "Stains",

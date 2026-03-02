@@ -13,7 +13,7 @@ const navLinks = [
     label: "Pool Deck",
     href: "/Pool-deck",
   },
-  { label: "Waterproofing", href: "https://dcslv.net/water-proofing-systems/" },
+  { label: "Waterproofing", href: "/Water-proofing-systems" },
   { label: "Stains", href: "https://dcslv.net/stains-in-las-vegas-nevada/" },
   {
     label: "Rentals",

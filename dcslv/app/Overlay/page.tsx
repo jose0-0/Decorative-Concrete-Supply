@@ -597,7 +597,7 @@ const relatedProducts = [
     label: "Pool Deck",
     href: "/Pool-deck",
   },
-  { label: "Waterproofing", href: "https://dcslv.net/water-proofing-systems/" },
+  { label: "Waterproofing", href: "/Water-proofing-systems" },
   {
     label: "Equipment Rentals",
     href: "https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/",

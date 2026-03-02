@@ -72,7 +72,7 @@ const pages: Page[] = [
   {
     title: "Waterproofing Systems",
     description: "Life Deck waterproofing systems — free estimates available.",
-    href: "https://dcslv.net/water-proofing-systems/",
+    href: "/Water-proofing-systems",
     keywords: [
       "waterproof",
       "water proofing",

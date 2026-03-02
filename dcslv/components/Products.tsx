@@ -101,7 +101,7 @@ const products: Product[] = [
   {
     title: "Waterproofing",
     description: "Life Deck waterproofing systems — free estimates available.",
-    href: "https://dcslv.net/water-proofing-systems/",
+    href: "/Water-proofing-systems",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
