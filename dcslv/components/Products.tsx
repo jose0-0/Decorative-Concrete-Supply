@@ -119,7 +119,7 @@ const products: Product[] = [
     title: "Concrete Stamps",
     description:
       "Stamp rental and supplies to achieve authentic stone and paver textures.",
-    href: "https://dcslv.net/stamps-2/",
+    href: "/Stamps",
     icon: (
       <svg
         className="w-5 h-5 text-brand"

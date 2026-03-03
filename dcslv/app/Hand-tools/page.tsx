@@ -382,7 +382,7 @@ const faqs: FaqItem[] = [
 ───────────────────────────────────────────── */
 const relatedProducts = [
   { label: "All Tools", href: "/Tools" },
-  { label: "Stamp Rentals", href: "https://dcslv.net/stamps-2/" },
+  { label: "Stamp Rentals", href: "/Stamps" },
   {
     label: "Color Hardener",
     href: "https://dcslv.net/stamps-and-color-hardener/",

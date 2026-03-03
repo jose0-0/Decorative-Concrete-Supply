@@ -503,7 +503,7 @@ const relatedProducts = [
     href: "/Pool-deck",
   },
   { label: "Waterproofing", href: "/Water-proofing-systems" },
-  { label: "Concrete Stamps", href: "https://dcslv.net/stamps-2/" },
+  { label: "Concrete Stamps", href: "/Stamps" },
 ];
 
 /* ─────────────────────────────────────────────

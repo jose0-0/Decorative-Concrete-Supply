@@ -66,7 +66,7 @@ const columns: FooterColumn[] = [
         label: "Machine Rentals",
         href: "/Machine-rentals",
       },
-      { label: "Stamp Rentals", href: "https://dcslv.net/stamps-2/" },
+      { label: "Stamp Rentals", href: "/Stamps" },
       {
         label: "Color Hardener",
         href: "https://dcslv.net/stamps-and-color-hardener/",

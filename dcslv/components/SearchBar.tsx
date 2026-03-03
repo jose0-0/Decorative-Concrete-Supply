@@ -86,7 +86,7 @@ const pages: Page[] = [
     title: "Concrete Stamps",
     description:
       "Stamp rental and supplies to achieve authentic stone and paver textures.",
-    href: "https://dcslv.net/stamps-2/",
+    href: "/Stamps",
     keywords: [
       "stamps",
       "stamped concrete",

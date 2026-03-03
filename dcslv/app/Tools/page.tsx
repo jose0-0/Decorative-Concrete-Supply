@@ -579,7 +579,7 @@ const relatedProducts = [
     label: "Machine Rentals",
     href: "/Machine-rentals",
   },
-  { label: "Stamp Rentals", href: "https://dcslv.net/stamps-2/" },
+  { label: "Stamp Rentals", href: "/Stamps" },
   {
     label: "Rebar & Expansion",
     href: "https://dcslv.net/construction-supplies-in-las-vegas-nevada/",

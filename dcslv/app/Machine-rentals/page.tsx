@@ -409,7 +409,7 @@ const faqs: FaqItem[] = [
    RELATED LINKS
 ───────────────────────────────────────────── */
 const relatedProducts = [
-  { label: "Stamp Rentals", href: "https://dcslv.net/stamps-2/" },
+  { label: "Stamp Rentals", href: "/Stamps" },
   {
     label: "Epoxy Products",
     href: "/Epoxy-products",
