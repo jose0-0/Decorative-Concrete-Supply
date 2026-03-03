@@ -284,7 +284,7 @@ const categories: ToolCategory[] = [
       "DCF850B ATOMIC 20V Impact Driver — 1,825 in-lbs",
       "DCE531B 20V MAX Pencil Concrete Vibrator — 14,000 VPM",
     ],
-    subpageHref: "https://dcslv.net/dewalt-power-tools/",
+    subpageHref: "/Dewalt-power-tools/",
     icon: <ZapIcon className="w-6 h-6 text-brand" />,
   },
   {
@@ -304,7 +304,7 @@ const categories: ToolCategory[] = [
       "XRV02T 18V concrete vibrator — 12,500 VPM",
       "HM1812X3 70 lb AVT breaker hammer",
     ],
-    subpageHref: "https://dcslv.net/makita-tools-and-accessories/",
+    subpageHref: "/Makita-tools",
     icon: <ZapIcon className="w-6 h-6 text-brand" />,
   },
   {
@@ -545,7 +545,7 @@ const faqs: FaqItem[] = [
   {
     question: "Do you carry Marshalltown edgers?",
     answer:
-      'Yes — we carry the full Marshalltown hand and walking edger line. Hand edgers are available in curved-end and straight-end styles with blue steel blades and DuraSoft® handles. Walking edgers are 10" × 6" heavy 16-gauge stainless steel with a 2-way cast aluminum bracket for walking behind the tool. Multiple radius and lip depths available. Visit our product page at dcslv.net/hand/ for full selection details.',
+      'Yes — we carry the full Marshalltown hand and walking edger line. Hand edgers are available in curved-end and straight-end styles with blue steel blades and DuraSoft® handles. Walking edgers are 10" × 6" heavy 16-gauge stainless steel with a 2-way cast aluminum bracket for walking behind the tool. Multiple radius and lip depths available. Visit our product page at dcslv.net/Tools for full selection details.',
   },
   {
     question: "Do you stock Makita demolition hammers?",
@@ -576,8 +576,8 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   { label: "Sprayers", href: "https://dcslv.net/hoses-and-sprayers/" },
   {
-    label: "Equipment Rentals",
-    href: "https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/",
+    label: "Machine Rentals",
+    href: "/Machine-rentals",
   },
   { label: "Stamp Rentals", href: "https://dcslv.net/stamps-2/" },
   {
@@ -586,11 +586,11 @@ const relatedProducts = [
   },
   {
     label: "Epoxy Products",
-    href: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
+    href: "/Epoxy-products",
   },
   {
     label: "Overlay / Repair",
-    href: "https://dcslv.net/overlay-in-las-vegas-nevada/",
+    href: "/Overlay",
   },
 ];
 const page = () => {

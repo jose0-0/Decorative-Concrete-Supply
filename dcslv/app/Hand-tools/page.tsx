@@ -410,7 +410,7 @@ const page = () => {
             name: "Decorative Concrete Supply",
             description:
               "Marshalltown concrete hand edgers and walking edgers in Las Vegas, NV.",
-            url: "https://dcslv.net/hand/",
+            url: "/Tools",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -1103,7 +1103,7 @@ const page = () => {
             {/* Back to tools */}
             <div className="flex justify-center mb-8 reveal">
               <Link
-                href="https://dcslv.net/hand-tools/"
+                href="/Tools"
                 className="inline-flex items-center gap-2 text-sm font-head font-bold uppercase tracking-widest text-stone-500 hover:text-brand transition-colors"
               >
                 <ArrowLeftIcon className="w-4 h-4" />
