@@ -266,7 +266,7 @@ const categories: ToolCategory[] = [
       "Multiple radius & lip depth options",
       "DuraSoft® ergonomic handles",
     ],
-    subpageHref: "https://dcslv.net/hand/",
+    subpageHref: "/Hand-tools",
     icon: <WrenchIcon className="w-6 h-6 text-brand" />,
   },
   {
