@@ -207,10 +207,8 @@ const stamps: StampPattern[] = [
       "Hides minor finish imperfections",
       "Natural variation in impression depth",
     ],
-    sampleImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/oldgranitesample-300x300.png",
-    stampImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/oldgranitestamp-300x300.gif",
+    sampleImg: "/oldgranite-sample.webp",
+    stampImg: "/oldgranite-stamp.webp",
     sampleAlt: "Old Granite stamped concrete finish — rough granite texture",
     stampAlt: "Old Granite Proline stamp tool",
   },
@@ -229,10 +227,8 @@ const stamps: StampPattern[] = [
       "Natural randomized appearance",
       "Italian slate texture",
     ],
-    sampleImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/Rotatingashitalian-300x300.gif",
-    stampImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/rotatingashitalianstamp-300x298.gif",
+    sampleImg: "/Rotatingashitalian-sample.webp",
+    stampImg: "/Rotatingashitalian-stamp.webp",
     sampleAlt: "Rotating Ash Italian stamped concrete finish",
     stampAlt: "Rotating Ash Italian Proline stamp set",
   },
@@ -256,10 +252,8 @@ const stamps: StampPattern[] = [
       "Works with contemporary & Mediterranean styles",
       "Defined grout lines",
     ],
-    sampleImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/italiansample-300x300.png",
-    stampImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/italianstamp-300x300.gif",
+    sampleImg: "/italian-sample.webp",
+    stampImg: "/italian-stamp.webp",
     sampleAlt:
       "Italian Slate stamped concrete finish — rectilinear slate pattern",
     stampAlt: "Italian Slate Proline stamp tool",
@@ -284,10 +278,8 @@ const stamps: StampPattern[] = [
       "Most popular pattern in rotating version",
       "Familiar to most concrete crews",
     ],
-    sampleImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/Rotatingashromanstamp-300x300.gif",
-    stampImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/rotatingashromanstamppci-300x290.gif",
+    sampleImg: "/Rotatingashroman-sample.webp",
+    stampImg: "/Rotatingashroman-stamp.webp",
     sampleAlt: "Rotating Ash Roman stamped concrete finish",
     stampAlt: "Rotating Ash Roman Proline stamp set",
   },
@@ -311,10 +303,8 @@ const stamps: StampPattern[] = [
       "Wood grain texture",
       "Pairs with wood-tone colors",
     ],
-    sampleImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/12inchboardwalkplankssample-300x267.gif",
-    stampImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/12inchboardwalkplankstamp.gif",
+    sampleImg: "/12inchboardwalkplanks-sample.webp",
+    stampImg: "/12inchboardwalkplankstamp.webp",
     sampleAlt:
       "12 inch Boardwalk Planks stamped concrete finish — wood deck look",
     stampAlt: "12 inch Boardwalk Planks Proline stamp tool",
@@ -339,10 +329,8 @@ const stamps: StampPattern[] = [
       "Nail head detail",
       "Pairs with cedar & redwood color tones",
     ],
-    sampleImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/6inchboardwalkplankssample-300x265.gif",
-    stampImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/6inchboardwalkplankstamp.gif",
+    sampleImg: "/6inchboardwalkplanks-sample.webp",
+    stampImg: "/6inchboardwalkplank-stamp.webp",
     sampleAlt:
       "6 inch Boardwalk Planks stamped concrete finish — narrow plank look",
     stampAlt: "6 inch Boardwalk Planks Proline stamp tool",
@@ -367,10 +355,8 @@ const stamps: StampPattern[] = [
       "Complex alignment — plan carefully",
       "High visual interest",
     ],
-    sampleImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/EuropeanFanSmallStoneSample-300x264.gif",
-    stampImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/EuropeanFanSmallStoneStamp.gif",
+    sampleImg: "/EuropeanFanSmallStone-Sample.webp",
+    stampImg: "/EuropeanFanSmallStone-Stamp.webp",
     sampleAlt:
       "European Fan Small Stone stamped concrete finish — radial fan pattern",
     stampAlt: "European Fan Small Stone Proline stamp tool",
@@ -397,10 +383,8 @@ const stamps: StampPattern[] = [
       "Formal and refined",
       "Upscale residential appeal",
     ],
-    sampleImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/ashlarcutslatesample-300x180.jpg",
-    stampImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/ashlarcutstamps.jpg",
+    sampleImg: "/ashlarcutslate-sample.webp",
+    stampImg: "/ashlarcutslate-stamps.webp",
     sampleAlt: "Ashlar Cut Slate stamped concrete finish — cut stone tile look",
     stampAlt: "Ashlar Cut Slate Brickform stamp set",
     popular: true,
@@ -425,10 +409,8 @@ const stamps: StampPattern[] = [
       "Works with warm desert tones",
       "Rustic & natural appeal",
     ],
-    sampleImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/RandomStonesample-300x180.webp",
-    stampImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/randomstoneStamp.jpg",
+    sampleImg: "/RandomStone-sample.webp",
+    stampImg: "/randomstone-Stamp.webp",
     sampleAlt:
       "Random Stone stamped concrete finish — irregular fieldstone pattern",
     stampAlt: "Random Stone Brickform stamp set",
@@ -453,10 +435,8 @@ const stamps: StampPattern[] = [
       "Old World European character",
       "Works as border or full coverage",
     ],
-    sampleImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/LondonCobbleSample-300x214.webp",
-    stampImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/LondonCobbleStamp.jpg",
+    sampleImg: "/LondonCobble-Sample.webp",
+    stampImg: "/LondonCobble-Stamp.webp",
     sampleAlt:
       "London Cobble stamped concrete finish — rounded cobblestone pattern",
     stampAlt: "London Cobble Brickform stamp set",
@@ -483,10 +463,8 @@ const stamps: StampPattern[] = [
       "Defined mortar joint lines",
       "Highly recognizable — strong visual impact",
     ],
-    sampleImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/herringbonenewbricksample-300x199.webp",
-    stampImg:
-      "https://dcslv.net/wp-content/uploads/2024/01/herringbonenewbrickstamp.jpg",
+    sampleImg: "/herringbonenewbrick-sample.webp",
+    stampImg: "/herringbonenewbrick-stamp.webp",
     sampleAlt:
       "Herringbone New Brick stamped concrete finish — 45 degree brick pattern",
     stampAlt: "Herringbone New Brick Brickform stamp set",
@@ -593,14 +571,14 @@ const relatedProducts = [
   { label: "Sealer", href: "https://dcslv.net/sealer-in-las-vegas-nevada/" },
   {
     label: "Equipment Rentals",
-    href: "https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/",
+    href: "/Machine-rentals",
   },
   { label: "Concrete Retarder", href: "https://dcslv.net/concrete-retarder/" },
   {
     label: "Overlay / Repair",
-    href: "https://dcslv.net/overlay-in-las-vegas-nevada/",
+    href: "/Overlay",
   },
-  { label: "Tools", href: "https://dcslv.net/hand-tools/" },
+  { label: "Tools", href: "/Tools" },
 ];
 
 /* ─────────────────────────────────────────────
