@@ -566,9 +566,9 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Color Hardener / Release",
-    href: "https://dcslv.net/stamps-and-color-hardener/",
+    href: "/Color-hardener",
   },
-  { label: "Sealer", href: "https://dcslv.net/sealer-in-las-vegas-nevada/" },
+  { label: "Sealer", href: "/Sealer" },
   {
     label: "Equipment Rentals",
     href: "/Machine-rentals",

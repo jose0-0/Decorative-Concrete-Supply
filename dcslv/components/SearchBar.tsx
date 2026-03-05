@@ -114,7 +114,7 @@ const pages: Page[] = [
     title: "Color Hardener",
     description:
       "Color hardener and release agents for decorative stamped concrete.",
-    href: "https://dcslv.net/stamps-and-color-hardener/",
+    href: "/Color-hardener",
     keywords: [
       "color hardener",
       "release agent",

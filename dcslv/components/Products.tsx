@@ -158,7 +158,7 @@ const products: Product[] = [
     title: "Color Hardener",
     description:
       "Color hardener and release agents for decorative stamped concrete.",
-    href: "https://dcslv.net/stamps-and-color-hardener/",
+    href: "/Color-hardener",
     icon: (
       <svg
         className="w-5 h-5 text-brand"

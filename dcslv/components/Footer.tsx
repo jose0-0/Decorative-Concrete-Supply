@@ -69,14 +69,14 @@ const columns: FooterColumn[] = [
       { label: "Stamp Rentals", href: "/Stamps" },
       {
         label: "Color Hardener",
-        href: "https://dcslv.net/stamps-and-color-hardener/",
+        href: "/Color-hardener",
       },
       { label: "Deck Drain / Forms", href: "https://dcslv.net/deck-drain/" },
       { label: "Tools", href: "/Tools" },
       { label: "Sprayers", href: "https://dcslv.net/hoses-and-sprayers/" },
       {
         label: "Power Tools",
-        href: "https://dcslv.net/construction-tools-in-las-vegas-nevada/",
+        href: "/Tools",
       },
     ],
   },

@@ -324,7 +324,7 @@ const relatedProducts = [
   },
   {
     label: "Color Hardener",
-    href: "https://dcslv.net/stamps-and-color-hardener/",
+    href: "/Color-hardener",
   },
   {
     label: "Concrete & Cure",

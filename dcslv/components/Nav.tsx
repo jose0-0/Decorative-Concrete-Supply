@@ -27,7 +27,7 @@ const mobileLinks = [
   { label: "Stamp Rentals", href: "/Stamps" },
   {
     label: "Color Hardener",
-    href: "https://dcslv.net/stamps-and-color-hardener/",
+    href: "/Color-hardener",
   },
   { label: "Concrete Retarder", href: "https://dcslv.net/concrete-retarder/" },
   {
