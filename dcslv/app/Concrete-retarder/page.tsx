@@ -404,7 +404,7 @@ const relatedProducts = [
   { label: "Sealer", href: "/Sealer" },
   {
     label: "Concrete, Cure & Dye",
-    href: "https://dcslv.net/concrete-and-products/",
+    href: "/Concrete-and-products/",
   },
   {
     label: "Overlay / Repair",

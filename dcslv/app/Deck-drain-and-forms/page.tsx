@@ -459,22 +459,22 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Pool Deck",
-    href: "https://dcslv.net/pool-deck-in-las-vegas-nevada/",
+    href: "/Pool-deck",
   },
   {
     label: "Waterproofing Systems",
-    href: "https://dcslv.net/water-proofing-systems/",
+    href: "/Water-proofing-systems",
   },
   {
     label: "Overlay / Repair",
-    href: "https://dcslv.net/overlay-in-las-vegas-nevada/",
+    href: "/Overlay",
   },
-  { label: "Sealer", href: "https://dcslv.net/sealer-in-las-vegas-nevada/" },
+  { label: "Sealer", href: "/Sealer" },
   {
     label: "Rebar & Expansion",
     href: "https://dcslv.net/construction-supplies-in-las-vegas-nevada/",
   },
-  { label: "Tools", href: "https://dcslv.net/hand-tools/" },
+  { label: "Tools", href: "/Tools" },
 ];
 
 const catAccent: Record<string, string> = {

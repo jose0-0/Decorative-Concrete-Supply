@@ -151,7 +151,7 @@ const pages: Page[] = [
     title: "Concrete, Cure & Dye",
     description:
       "Cement, mortars, curing compounds, dyes, and integral colors.",
-    href: "https://dcslv.net/concrete-and-products/",
+    href: "/Concrete-and-products",
     keywords: [
       "concrete",
       "cement",
@@ -210,7 +210,7 @@ const pages: Page[] = [
     title: "Power Tools",
     description:
       "Makita grinders, jack hammers, Simpson pressure washers and generators.",
-    href: "https://dcslv.net/construction-tools-in-las-vegas-nevada/",
+    href: "/Tools",
     keywords: [
       "power tools",
       "makita",

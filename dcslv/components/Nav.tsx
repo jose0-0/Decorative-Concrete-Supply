@@ -32,7 +32,7 @@ const mobileLinks = [
   { label: "Concrete Retarder", href: "/Concrete-retarder" },
   {
     label: "Concrete & Cure",
-    href: "https://dcslv.net/concrete-and-products/",
+    href: "/Concrete-and-products",
   },
   {
     label: "Rebar & Expansion",

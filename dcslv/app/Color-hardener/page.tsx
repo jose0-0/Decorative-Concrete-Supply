@@ -328,7 +328,7 @@ const relatedProducts = [
   { label: "Concrete Retarder", href: "/Concrete-retarder/" },
   {
     label: "Concrete, Cure & Dye",
-    href: "https://dcslv.net/concrete-and-products/",
+    href: "/Concrete-and-products/",
   },
   {
     label: "Overlay / Repair",

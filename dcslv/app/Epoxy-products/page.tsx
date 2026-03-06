@@ -328,7 +328,7 @@ const relatedProducts = [
   },
   {
     label: "Concrete & Cure",
-    href: "https://dcslv.net/concrete-and-products/",
+    href: "/Concrete-and-products",
   },
   {
     label: "Machine Rentals",

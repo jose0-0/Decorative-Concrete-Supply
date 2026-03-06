@@ -216,7 +216,7 @@ const products: Product[] = [
     title: "Concrete, Cure & Dye",
     description:
       "Cement, mortars, curing compounds, dyes, and integral colors.",
-    href: "https://dcslv.net/concrete-and-products/",
+    href: "/Concrete-and-products",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -295,7 +295,7 @@ const products: Product[] = [
     title: "Power Tools",
     description:
       "Makita grinders, jack hammers, Simpson pressure washers and generators.",
-    href: "https://dcslv.net/construction-tools-in-las-vegas-nevada/",
+    href: "/Tools",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
