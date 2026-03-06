@@ -139,7 +139,7 @@ const pages: Page[] = [
     title: "Surface Retarder",
     description:
       "Concrete retarders for exposed aggregate and decorative finishes.",
-    href: "https://dcslv.net/concrete-retarder/",
+    href: "/Concrete-retarder",
     keywords: [
       "retarder",
       "surface retarder",

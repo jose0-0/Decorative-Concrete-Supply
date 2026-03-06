@@ -47,7 +47,7 @@ const columns: FooterColumn[] = [
       },
       {
         label: "Surface Retarder",
-        href: "https://dcslv.net/concrete-retarder/",
+        href: "/Concrete-retarder",
       },
       {
         label: "Concrete & Cure",

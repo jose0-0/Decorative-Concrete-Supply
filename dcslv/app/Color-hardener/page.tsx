@@ -325,7 +325,7 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   { label: "Stamp Rentals", href: "/Stamps" },
   { label: "Sealer", href: "/Sealer" },
-  { label: "Concrete Retarder", href: "https://dcslv.net/concrete-retarder/" },
+  { label: "Concrete Retarder", href: "/Concrete-retarder/" },
   {
     label: "Concrete, Cure & Dye",
     href: "https://dcslv.net/concrete-and-products/",
@@ -1137,7 +1137,7 @@ export default function ColorHardenerPage() {
               </div>
               <div className="shrink-0">
                 <Link
-                  href="https://dcslv.net/concrete-retarder/"
+                  href="/Concrete-retarder"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-brand hover:bg-brand-dark text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                 >
                   Shop Retarder →

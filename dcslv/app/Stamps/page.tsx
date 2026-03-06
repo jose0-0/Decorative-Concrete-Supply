@@ -573,7 +573,7 @@ const relatedProducts = [
     label: "Equipment Rentals",
     href: "/Machine-rentals",
   },
-  { label: "Concrete Retarder", href: "https://dcslv.net/concrete-retarder/" },
+  { label: "Concrete Retarder", href: "/Concrete-retarder" },
   {
     label: "Overlay / Repair",
     href: "/Overlay",
@@ -1116,7 +1116,7 @@ export default function StampRentalsPage() {
               Use concrete retarder on the surface in summer to extend your
               working time.
               <a
-                href="https://dcslv.net/concrete-retarder/"
+                href="/Concrete-retarder"
                 className="text-brand font-semibold hover:underline ml-1"
               >
                 We stock it →

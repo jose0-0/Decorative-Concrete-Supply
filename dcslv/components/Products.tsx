@@ -197,7 +197,7 @@ const products: Product[] = [
     title: "Surface Retarder",
     description:
       "Concrete retarders for exposed aggregate and decorative finishes.",
-    href: "https://dcslv.net/concrete-retarder/",
+    href: "/Concrete-retarder",
     icon: (
       <svg
         className="w-5 h-5 text-brand"

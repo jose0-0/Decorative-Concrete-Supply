@@ -387,7 +387,7 @@ const relatedProducts = [
     label: "Color Hardener",
     href: "/Color-hardener/",
   },
-  { label: "Concrete Retarder", href: "https://dcslv.net/concrete-retarder/" },
+  { label: "Concrete Retarder", href: "/Concrete-retarder" },
   {
     label: "Overlay / Repair",
     href: "/Overlay",
