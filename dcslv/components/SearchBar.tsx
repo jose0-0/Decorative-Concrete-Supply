@@ -125,7 +125,7 @@ const pages: Page[] = [
   {
     title: "Deck Drain & Forms",
     description: "Stegmeier and Mortex drains for pools plus cantilever forms.",
-    href: "https://dcslv.net/deck-drain/",
+    href: "/Deck-drain-and-forms",
     keywords: [
       "deck drain",
       "pool drain",

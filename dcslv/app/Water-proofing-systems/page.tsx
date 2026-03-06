@@ -474,17 +474,17 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Pool Deck",
-    href: "https://dcslv.net/pool-deck-in-las-vegas-nevada/",
+    href: "/Pool-deck",
   },
-  { label: "Deck Drain / Forms", href: "https://dcslv.net/deck-drain/" },
-  { label: "Sealer", href: "https://dcslv.net/sealer-in-las-vegas-nevada/" },
+  { label: "Deck Drain / Forms", href: "/Deck-drain-and-forms" },
+  { label: "Sealer", href: "/Sealer" },
   {
     label: "Overlay / Repair",
-    href: "https://dcslv.net/overlay-in-las-vegas-nevada/",
+    href: "/Overlay",
   },
   {
     label: "Epoxy Products",
-    href: "https://dcslv.net/epoxy-products-in-las-vegas-nevada/",
+    href: "/Epoxy-products",
   },
   {
     label: "Machine Rentals",

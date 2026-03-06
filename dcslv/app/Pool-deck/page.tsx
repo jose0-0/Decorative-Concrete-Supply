@@ -416,7 +416,7 @@ const relatedProducts = [
   },
   { label: "Sealer", href: "/Sealer" },
   { label: "Waterproofing", href: "/Water-proofing-systems" },
-  { label: "Deck Drain / Forms", href: "https://dcslv.net/deck-drain/" },
+  { label: "Deck Drain / Forms", href: "/Deck-drain-and-forms" },
   {
     label: "Stains & Dyes",
     href: "/Stains",

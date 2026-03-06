@@ -179,7 +179,7 @@ const products: Product[] = [
   {
     title: "Deck Drain & Forms",
     description: "Stegmeier and Mortex drains for pools plus cantilever forms.",
-    href: "https://dcslv.net/deck-drain/",
+    href: "/Deck-drain-and-forms",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
