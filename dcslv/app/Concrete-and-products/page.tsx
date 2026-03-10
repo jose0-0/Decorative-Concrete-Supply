@@ -566,7 +566,7 @@ const relatedProducts = [
   { label: "Concrete Retarder", href: "/Concrete-retarder" },
   {
     label: "Rebar & Expansion",
-    href: "https://dcslv.net/construction-supplies-in-las-vegas-nevada/",
+    href: "/Concrete-forming-and-supplies",
   },
 ];
 

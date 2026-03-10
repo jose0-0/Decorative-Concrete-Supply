@@ -582,7 +582,7 @@ const relatedProducts = [
   { label: "Stamp Rentals", href: "/Stamps" },
   {
     label: "Rebar & Expansion",
-    href: "https://dcslv.net/construction-supplies-in-las-vegas-nevada/",
+    href: "/Concrete-forming-and-supplies",
   },
   {
     label: "Epoxy Products",

@@ -165,7 +165,7 @@ const pages: Page[] = [
     title: "Rebar & Expansion",
     description:
       "Rebar #3, #4, #5, OSHA caps, tie-wire, expansion paper, ADA tiles.",
-    href: "https://dcslv.net/construction-supplies-in-las-vegas-nevada/",
+    href: "/Concrete-forming-and-supplies",
     keywords: [
       "rebar",
       "rebar #3",

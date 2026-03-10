@@ -36,7 +36,7 @@ const mobileLinks = [
   },
   {
     label: "Rebar & Expansion",
-    href: "https://dcslv.net/construction-supplies-in-las-vegas-nevada/",
+    href: "/Concrete-forming-and-supplies",
   },
   { label: "Sprayers", href: "https://dcslv.net/hoses-and-sprayers/" },
 ];

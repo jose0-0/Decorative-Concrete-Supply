@@ -472,7 +472,7 @@ const relatedProducts = [
   { label: "Sealer", href: "/Sealer" },
   {
     label: "Rebar & Expansion",
-    href: "https://dcslv.net/construction-supplies-in-las-vegas-nevada/",
+    href: "/Concrete-forming-and-supplies",
   },
   { label: "Tools", href: "/Tools" },
 ];

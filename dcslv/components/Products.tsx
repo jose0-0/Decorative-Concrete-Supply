@@ -236,7 +236,7 @@ const products: Product[] = [
     title: "Rebar & Expansion",
     description:
       "Rebar #3, #4, #5, OSHA caps, tie-wire, expansion paper, ADA tiles.",
-    href: "https://dcslv.net/construction-supplies-in-las-vegas-nevada/",
+    href: "/Concrete-forming-and-supplies",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
