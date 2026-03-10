@@ -632,7 +632,7 @@ export default function StampRentalsPage() {
             name: "Decorative Concrete Supply",
             description:
               "Concrete stamp rentals in Las Vegas — 12 Proline and Brickform patterns.",
-            url: "https://dcslv.net/stamps-2/",
+            url: "/Stamps",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
