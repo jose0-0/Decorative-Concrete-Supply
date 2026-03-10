@@ -908,9 +908,9 @@ export default function ConcreteAndProductsPage() {
                     Las Vegas summer conditions — 110°F+ air temps, sub-10%
                     humidity, direct sun, and 140°F+ surface temperatures —
                     create the worst possible curing environment for concrete.
-                    Without Eucobar, DAY1, or a curing compound, you're gambling
-                    with checking, crazing, plastic shrinkage cracking, and
-                    massively reduced surface strength on every pour.
+                    Without Eucobar, DAY1, or a curing compound, you&apos;re
+                    gambling with checking, crazing, plastic shrinkage cracking,
+                    and massively reduced surface strength on every pour.
                   </p>
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                     {[
@@ -963,7 +963,8 @@ export default function ConcreteAndProductsPage() {
                     1100 Cure · More
                   </p>
                   <p className="text-stone-400 text-xs font-light mb-5">
-                    Don't pour without curing products on hand. Open at 6AM.
+                    Don&apos;t pour without curing products on hand. Open at
+                    6AM.
                   </p>
                   <a
                     href="tel:7027496318"

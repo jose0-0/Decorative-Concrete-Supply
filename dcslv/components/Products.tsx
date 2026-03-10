@@ -256,7 +256,7 @@ const products: Product[] = [
   },
   {
     title: "Tools",
-    description: "Hand tools, brushes, floats, screeds and more.",
+    description: "Hand & power tools, brushes, floats, screeds and more.",
     href: "/Tools",
     icon: (
       <svg
@@ -291,24 +291,24 @@ const products: Product[] = [
       </svg>
     ),
   },
-  {
-    title: "Power Tools",
-    description:
-      "Makita grinders, jack hammers, Simpson pressure washers and generators.",
-    href: "/Tools",
-    icon: (
-      <svg
-        className="w-5 h-5 text-brand"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth={1.8}
-        viewBox="0 0 24 24"
-        aria-hidden="true"
-      >
-        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-      </svg>
-    ),
-  },
+  // {
+  //   title: "Power Tools",
+  //   description:
+  //     "Makita grinders, jack hammers, Simpson pressure washers and generators.",
+  //   href: "/Tools",
+  //   icon: (
+  //     <svg
+  //       className="w-5 h-5 text-brand"
+  //       fill="none"
+  //       stroke="currentColor"
+  //       strokeWidth={1.8}
+  //       viewBox="0 0 24 24"
+  //       aria-hidden="true"
+  //     >
+  //       <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+  //     </svg>
+  //   ),
+  // },
   {
     title: "Machine Rentals",
     description:

@@ -74,16 +74,17 @@ const columns: FooterColumn[] = [
       { label: "Deck Drain / Forms", href: "/Deck-drain-and-forms" },
       { label: "Tools", href: "/Tools" },
       { label: "Sprayers", href: "https://dcslv.net/hoses-and-sprayers/" },
-      {
-        label: "Power Tools",
-        href: "/Power-tools",
-      },
     ],
   },
 ];
 
 const companyLinks: NavLink[] = [
-  { label: "About DCS", href: "https://dcslv.net/" },
+  { label: "About DCS", href: "https://dcslv.net/about-dcs" },
+  {
+    label: "Articles",
+    href: "/",
+    external: true,
+  },
   { label: "Contact Us", href: "https://dcslv.net/contact-us-2/" },
   {
     label: "Google Reviews",
@@ -101,6 +102,7 @@ const hours: { day: string; time: string }[] = [
 const legalLinks: NavLink[] = [
   { label: "Privacy Policy", href: "#" },
   { label: "Terms & Conditions", href: "#" },
+  { label: "Built by Atlas Digital", href: "#" },
 ];
 
 const currentYear = new Date().getFullYear();
