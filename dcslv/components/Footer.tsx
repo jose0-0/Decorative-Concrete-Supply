@@ -73,7 +73,7 @@ const columns: FooterColumn[] = [
       },
       { label: "Deck Drain / Forms", href: "/Deck-drain-and-forms" },
       { label: "Tools", href: "/Tools" },
-      { label: "Sprayers", href: "https://dcslv.net/hoses-and-sprayers/" },
+      { label: "Sprayers", href: "/Hoses-and-sprayers" },
     ],
   },
 ];

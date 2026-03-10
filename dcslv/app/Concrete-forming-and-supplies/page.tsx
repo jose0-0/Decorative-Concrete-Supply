@@ -620,18 +620,18 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Concrete, Cure & Dye",
-    href: "https://dcslv.net/concrete-and-products/",
+    href: "/Concrete-and-products",
   },
-  { label: "Deck Drain / Forms", href: "https://dcslv.net/deck-drain/" },
-  { label: "Tools", href: "https://dcslv.net/hand-tools/" },
+  { label: "Deck Drain / Forms", href: "/deck-drain-and-forms/" },
+  { label: "Tools", href: "/Tools" },
   {
     label: "Equipment Rentals",
-    href: "https://dcslv.net/construction-equipment-rentals-in-las-vegas-nevada/",
+    href: "/Machine-rentals",
   },
-  { label: "Sealer", href: "https://dcslv.net/sealer-in-las-vegas-nevada/" },
+  { label: "Sealer", href: "/Sealer" },
   {
     label: "Overlay / Repair",
-    href: "https://dcslv.net/overlay-in-las-vegas-nevada/",
+    href: "/Overlay",
   },
 ];
 const page = () => {

@@ -574,7 +574,7 @@ const faqs: FaqItem[] = [
    RELATED LINKS
 ───────────────────────────────────────────── */
 const relatedProducts = [
-  { label: "Sprayers", href: "https://dcslv.net/hoses-and-sprayers/" },
+  { label: "Sprayers", href: "/Hoses-and-sprayers" },
   {
     label: "Machine Rentals",
     href: "/Machine-rentals",

@@ -275,7 +275,7 @@ const products: Product[] = [
     title: "Sprayers",
     description:
       "Acetone sprayers, pump sprayers, compressor sprayers and hopper guns.",
-    href: "https://dcslv.net/hoses-and-sprayers/",
+    href: "/Hoses-and-sprayers",
     icon: (
       <svg
         className="w-5 h-5 text-brand"

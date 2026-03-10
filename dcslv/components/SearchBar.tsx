@@ -196,7 +196,7 @@ const pages: Page[] = [
     title: "Sprayers & Hoses",
     description:
       "Acetone sprayers, pump sprayers, compressor sprayers and hopper guns.",
-    href: "https://dcslv.net/hoses-and-sprayers/",
+    href: "/Hoses-and-sprayers",
     keywords: [
       "sprayer",
       "hose",

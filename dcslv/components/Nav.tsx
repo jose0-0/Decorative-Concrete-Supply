@@ -38,7 +38,7 @@ const mobileLinks = [
     label: "Rebar & Expansion",
     href: "/Concrete-forming-and-supplies",
   },
-  { label: "Sprayers", href: "https://dcslv.net/hoses-and-sprayers/" },
+  { label: "Sprayers", href: "/Hoses-and-sprayers" },
 ];
 
 const Nav = () => {

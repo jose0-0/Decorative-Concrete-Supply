@@ -420,7 +420,7 @@ const relatedProducts = [
   },
   { label: "Sealer", href: "/Sealer" },
   { label: "Tools", href: "/Tools" },
-  { label: "Sprayers", href: "https://dcslv.net/hoses-and-sprayers/" },
+  { label: "Sprayers", href: "/Hoses-and-sprayers" },
 ];
 const page = () => {
   return (
