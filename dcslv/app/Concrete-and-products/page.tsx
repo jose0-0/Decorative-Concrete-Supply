@@ -715,7 +715,7 @@ export default function ConcreteAndProductsPage() {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="https://dcslv.net/contact-us-2/"
+                  href="/Contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1252,7 +1252,7 @@ export default function ConcreteAndProductsPage() {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="https://dcslv.net/contact-us-2/"
+                    href="/Contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →

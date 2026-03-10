@@ -115,7 +115,7 @@ const Nav = () => {
               Reviews
             </Link>
             <Link
-              href="https://dcslv.net/contact-us-2/"
+              href="/Contact-us"
               className="px-4 py-2 bg-brand hover:bg-brand-dark rounded text-white text-xs font-semibold tracking-widest uppercase transition-colors whitespace-nowrap"
             >
               Contact Us
@@ -134,7 +134,7 @@ const Nav = () => {
               Reviews
             </Link>
             <Link
-              href="https://dcslv.net/contact-us-2/"
+              href="/Contact-us"
               className="px-4 py-2 bg-brand hover:bg-brand-dark rounded text-white text-xs font-semibold tracking-widest uppercase transition-colors whitespace-nowrap"
             >
               Contact Us
@@ -201,7 +201,7 @@ const Nav = () => {
             Google Reviews
           </Link>
           <Link
-            href="https://dcslv.net/contact-us-2/"
+            href="/Contact-us"
             onClick={closeMenu}
             className="text-center py-3.5 bg-brand rounded font-head font-bold text-lg uppercase tracking-wide text-white"
           >

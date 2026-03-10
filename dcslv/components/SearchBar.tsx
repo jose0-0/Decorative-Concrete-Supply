@@ -239,7 +239,7 @@ const pages: Page[] = [
   {
     title: "Contact Us",
     description: "Get in touch with our team at either Las Vegas location.",
-    href: "https://dcslv.net/contact-us-2/",
+    href: "/Contact-us",
     keywords: [
       "contact",
       "phone",
@@ -491,7 +491,7 @@ export default function SearchBar() {
                   No results for &ldquo;
                   <span className="text-stone-600">{query}</span>&rdquo; —{" "}
                   <a
-                    href="https://dcslv.net/contact-us-2/"
+                    href="/Contact-us"
                     className="text-brand underline hover:no-underline"
                   >
                     contact us

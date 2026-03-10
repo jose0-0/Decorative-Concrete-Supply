@@ -48,7 +48,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap gap-3 mb-12 animate-slide-up">
             <Link
-              href="https://dcslv.net/contact-us-2/"
+              href="/Contact-us"
               className="px-7 py-3.5 bg-brand hover:bg-brand-dark text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
             >
               Contact Us
