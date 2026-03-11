@@ -79,7 +79,7 @@ const columns: FooterColumn[] = [
 ];
 
 const companyLinks: NavLink[] = [
-  { label: "About DCS", href: "https://dcslv.net/about-dcs" },
+  { label: "About DCS", href: "/About-dcs" },
   {
     label: "Articles",
     href: "/",
