@@ -361,15 +361,6 @@ export default function Products() {
             Our <span className="text-brand">Products</span>
           </h2>
         </div>
-        {/* <Link
-          href="https://dcslv.net/"
-          className="font-head font-bold text-sm uppercase tracking-widest text-brand flex items-center gap-2 group transition-all"
-        >
-          All Categories{" "}
-          <span className="group-hover:translate-x-1 transition-transform inline-block">
-            →
-          </span>
-        </Link> */}
       </div>
 
       {/* Product grid */}

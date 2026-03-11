@@ -191,12 +191,54 @@ const Page = () => {
 
   const handleSubmit = async (e: React.MouseEvent) => {
     e.preventDefault();
-    if (!form.name || (!form.phone && !form.email)) return;
+    if (!form.name || (!form.phone && !form.email) || !form.message) return;
     setSubmitting(true);
-    // Simulate form submission — replace with actual form handler (e.g. Netlify, Formspree, WP REST)
-    await new Promise((r) => setTimeout(r, 1200));
-    setSubmitted(true);
-    setSubmitting(false);
+
+    try {
+      const FORMSPREE_ID = process.env.NEXT_PUBLIC_FORMSPREE_ID;
+
+      if (!FORMSPREE_ID) {
+        console.error("NEXT_PUBLIC_FORMSPREE_ID is not set.");
+        alert("Form is not configured. Please call us at (702) 749-6318.");
+        setSubmitting(false);
+        return;
+      }
+
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          name: form.name,
+          phone: form.phone || "Not provided",
+          email: form.email || "Not provided",
+          preferred_location: form.location || "Not specified",
+          subject: form.subject || "Not specified",
+          message: form.message,
+          _subject: `DCS Contact Form — ${form.subject || "General inquiry"} — ${form.name}`,
+        }),
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        // Non-OK response — show a generic error so the user can call instead
+        const data = await res.json().catch(() => ({}));
+        console.error("Formspree error:", data);
+        alert(
+          "There was a problem sending your message. Please call us directly at (702) 749-6318.",
+        );
+      }
+    } catch (err) {
+      console.error("Form submission error:", err);
+      alert(
+        "There was a problem sending your message. Please call us directly at (702) 749-6318.",
+      );
+    } finally {
+      setSubmitting(false);
+    }
   };
   return (
     <>
@@ -208,9 +250,9 @@ const Page = () => {
             "@graph": [
               {
                 "@type": "LocalBusiness",
-                "@id": "https://dcslv.net/#south",
+                "@id": "/#south",
                 name: "Decorative Concrete Supply — South Las Vegas",
-                url: "/Contact-us",
+                url: "/Contact-us/",
                 telephone: "+17027496318",
                 image:
                   "https://dcslv.net/wp-content/uploads/2026/02/2025-logo-Deco-pdf-3.jpg",
@@ -253,7 +295,7 @@ const Page = () => {
               },
               {
                 "@type": "LocalBusiness",
-                "@id": "https://dcslv.net/#north",
+                "@id": "/#north",
                 name: "Decorative Concrete Supply — North Las Vegas",
                 url: "/Contact-us",
                 telephone: "+17027496318",
