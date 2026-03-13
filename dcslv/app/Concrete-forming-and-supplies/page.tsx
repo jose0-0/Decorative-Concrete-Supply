@@ -216,8 +216,7 @@ const products: Product[] = [
       { label: "Stock", value: "Tons — no minimum order" },
       { label: "Pickup", value: "Both LV locations" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2023/11/thumbnail_image0-1-1024x768.jpg",
+    image: "/rebar-stack.webp",
     imageAlt: "Rebar #3 #4 #5 in 20 foot sticks — Las Vegas concrete supply",
     popular: true,
     lvNote:
@@ -246,7 +245,7 @@ const products: Product[] = [
       { label: "Use", value: "Rebar cover spacing / chair" },
       { label: "Cover Depth", value: '2" or 3" (size-dependent)' },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/doubie.jpg",
+    image: "/doubie.webp",
     imageAlt:
       "Dobies concrete chairs 2x2 and 3x3 — rebar cover spacers Las Vegas",
     popular: true,
@@ -273,7 +272,7 @@ const products: Product[] = [
       { label: "Install", value: "Snap-on, no tools" },
       { label: "Color", value: "Bright safety colors" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/OIP-2.jpg",
+    image: "/osha-cap.webp",
     imageAlt:
       "OSHA rebar safety snap caps — impalement protection for rebar ends",
     lvNote:
@@ -300,7 +299,7 @@ const products: Product[] = [
       { label: "Formats", value: "Roll, wheel dispenser, Makita tie gun" },
       { label: "Tie Gun", value: "Makita automatic rebar tier" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/tiewire-1024x1024.jpg",
+    image: "/tire-wire.webp",
     imageAlt:
       "Tie wire roll and tie wire wheel dispenser — rebar tying supplies Las Vegas",
     popular: true,
@@ -325,8 +324,7 @@ const products: Product[] = [
       { label: "Lengths", value: "Full range — ask in store" },
       { label: "Use", value: "Concrete formwork and layout" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2023/11/IMG_0283-1-529x705-1.jpg",
+    image: "/concrete-stakes.webp",
     imageAlt:
       "Concrete forming stakes round and square — Las Vegas concrete supply",
   },
@@ -355,8 +353,7 @@ const products: Product[] = [
       { label: "Curb Lugs", value: "A, L, and rolled profiles" },
       { label: "Standard", value: "ASTM D1751" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2023/11/expansion-joint-filler-board-500x500-1.webp",
+    image: "/expansion-paper.webp",
     imageAlt:
       "Expansion joint filler paper board — 10 foot lengths various widths Las Vegas",
     popular: true,
@@ -385,7 +382,7 @@ const products: Product[] = [
       { label: "Seal-Ready", value: "Yes — debris-free, balanced adherence" },
       { label: "vs. Sawcut", value: "Faster — no saw, no cleanup required" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/snapcap.webp",
+    image: "/snap-cap.webp",
     imageAlt:
       "Snap-Cap joint former — control joint forming system for concrete slabs",
     popular: true,
@@ -425,8 +422,7 @@ const products: Product[] = [
       { label: "Widths", value: '3", 4", 5", 6", 8"' },
       { label: "Moisture", value: "Impervious — suitable for wet areas" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2023/11/deck-o-foam-1024x725.jpg",
+    image: "/Deck-O-Foam.webp",
     imageAlt:
       "Foam expansion joint material rolls — closed cell polyethylene Las Vegas",
     lvNote:
@@ -457,7 +453,7 @@ const products: Product[] = [
       { label: "Varieties", value: "Multiple — call for current stock" },
       { label: "Location", value: "North Las Vegas — 4601 E Cheyenne Ave" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/ADA.jpg",
+    image: "/ada-tile.webp",
     imageAlt:
       "ADA detectable warning truncated dome tiles — Las Vegas curb ramp compliance",
     lvNote:
