@@ -235,7 +235,7 @@ const products: Product[] = [
       { label: "Seal", value: "Tri-Lock pump cap" },
       { label: "Origin", value: "Made in USA" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/1949.webp",
+    image: "/1949-sprayer.webp",
     imageAlt:
       "Chapin 1949 Tri-Poxy 3.5 gallon industrial concrete pump sprayer",
     popular: true,
@@ -275,7 +275,7 @@ const products: Product[] = [
       { label: "Pumping", value: "None — connect to compressor" },
       { label: "Best For", value: "High-production professional jobs" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/1999-1024x1024.jpg",
+    image: "/1999-sprayer.webp",
     imageAlt:
       "Chapin 1999 compressor-charged pump-free industrial concrete sprayer",
     popular: true,
@@ -315,7 +315,7 @@ const products: Product[] = [
       { label: "Seal", value: "Tri-Lock pump cap" },
       { label: "Origin", value: "Made in USA" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/xtremesprayer.webp",
+    image: "/xtreme-sprayer.webp",
     imageAlt:
       "Chapin 19069 Xtreme stainless steel 3.5 gallon industrial concrete sprayer",
     madeInUSA: true,
@@ -356,8 +356,7 @@ const products: Product[] = [
       { label: "Wand", value: "Brass" },
       { label: "Use", value: "Acetone dye, acetone-only products" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2023/11/acetone-3gal-1024x1024.webp",
+    image: "/acetone-3gal-sprayer.webp",
     imageAlt:
       "Chapin 21127XP 3-gallon acetone sprayer for decorative concrete dye",
     popular: true,
@@ -393,7 +392,7 @@ const products: Product[] = [
       { label: "Seals", value: "Acetone-resistant" },
       { label: "Use", value: "Acetone dye spot work and touch-ups" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/acetone48oz.webp",
+    image: "/acetone-1g-sprayer.webp",
     imageAlt:
       "Chapin 10027 industrial acetone hand sprayer for decorative concrete dye",
     useCase: ["Acetone dye", "Spot work", "Detail application"],
@@ -426,7 +425,7 @@ const products: Product[] = [
       { label: "Filter", value: "In-tank anti-clog" },
       { label: "Use", value: "Water-based products, general purpose" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/48oz-sprayer.webp",
+    image: "/general-purpose-1g-sprayer.webp",
     imageAlt:
       "Chapin 1002 48oz adjustable nozzle handheld multi-purpose sprayer",
     useCase: [
@@ -462,7 +461,7 @@ const products: Product[] = [
       { label: "Tank", value: "Translucent polyethylene" },
       { label: "Origin", value: "Made in USA" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/1gal.webp",
+    image: "/1gal-wand-sprayer.webp",
     imageAlt:
       "Chapin 20000 1-gallon SureSpray pump pressurized sprayer made in USA",
     madeInUSA: true,
@@ -494,8 +493,7 @@ const products: Product[] = [
       { label: "Tank", value: "Translucent polyethylene" },
       { label: "Origin", value: "Made in USA" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2023/11/plastic-pump-sprayer.webp",
+    image: "/plastic-pump-sprayer.webp",
     imageAlt:
       "Chapin 20002 2-gallon SureSpray pump pressurized sprayer made in USA",
     popular: true,
@@ -541,7 +539,7 @@ const products: Product[] = [
       { label: "Air Control", value: "At the gun — valve built in" },
       { label: "Origin", value: "Made in USA with global materials" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2023/11/hoppergun.jpg",
+    image: "/hopper-gun.webp",
     imageAlt:
       "Marshalltown SharpShooter I hopper gun — 7 orifice sizes, 2-gallon seamless hopper",
     popular: true,
@@ -564,29 +562,27 @@ const products: Product[] = [
 const replacementParts = [
   {
     name: "Extension Wand",
-    image: "https://dcslv.net/wp-content/uploads/2023/11/wand-115x300.jpg",
+    image: "/wand-replacement-part.webp",
     alt: "Chapin extension wand replacement part",
   },
   {
     name: "Chapin Spray Gun",
-    image: "https://dcslv.net/wp-content/uploads/2023/11/gunchapin-300x160.jpg",
+    image: "/sprayer-gun-replacement-part.webp",
     alt: "Chapin replacement spray gun",
   },
   {
     name: "Brass Fan Tip",
-    image:
-      "https://dcslv.net/wp-content/uploads/2023/11/brassfantip-300x103.jpg",
+    image: "/brass-fan-tip-replacement-part.webp",
     alt: "Brass fan tip nozzle replacement",
   },
   {
     name: "Replacement Nozzle",
-    image: "https://dcslv.net/wp-content/uploads/2023/11/noozle-300x176.jpg",
+    image: "/noozle-replacement-part.webp",
     alt: "Replacement nozzle for Chapin sprayer",
   },
   {
     name: "Chapin Seal Kit",
-    image:
-      "https://dcslv.net/wp-content/uploads/2023/11/chapin-replacment-300x258.jpg",
+    image: "/chapin-replacment-part.webp",
     alt: "Chapin replacement seal and gasket kit",
   },
 ];
@@ -676,7 +672,7 @@ const relatedProducts = [
   },
   { label: "Tools", href: "/Tools" },
   {
-    label: "Equipment Rentals",
+    label: "Machine Rentals",
     href: "/Machine-rentals",
   },
 ];
