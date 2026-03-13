@@ -192,42 +192,42 @@ const SunIcon = ({ className }: { className?: string }) => (
 ───────────────────────────────────────────── */
 const carouselImages: CarouselImage[] = [
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/R-4.jpg",
-    alt: "Stamped concrete with Brickform color hardener and antique release — desert tone finish",
-    caption: "Desert Tone · Antique Release Highlight",
+    src: "/Cappuccino-Color-Hardener.webp",
+    alt: "Stamped concrete with Brickform color hardener and antique release — Cappuccino Color Hardener",
+    caption: "Cappuccino Color Hardener · Autumn Brown Antique Release",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/OIP-7.jpg",
-    alt: "Stamped concrete patio with warm color hardener — Las Vegas residential",
-    caption: "Warm Sandstone · Residential Patio",
+    src: "/Ash-White-Color-Hardener.webp",
+    alt: "Stamped concrete patio with light color hardener — Las Vegas residential",
+    caption: "Ash White Color Hardener · Light Gray Antique Release",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/OIP-6.jpg",
-    alt: "Stamped concrete driveway with Brickform color hardener — slate pattern",
-    caption: "Slate Pattern · Color Hardener Base",
+    src: "/Cappuccino-Color-Hardener-2.webp",
+    alt: "Stamped concrete driveway with Brickform color hardener — Euroupean Fan design",
+    caption: "Cappuccino Color Hardener · Desert Tan Antique Release",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/OIP-5.jpg",
+    src: "/Golden-Sandstone-Color-Hardener.webp",
     alt: "Decorative concrete with antiquing release agent — two-tone finish",
-    caption: "Two-Tone Antique Effect · Release Agent",
+    caption: "Golden Sandstone Color Hardener · Desert Tan Antique Release",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/OIP-4.jpg",
+    src: "/Adobe-Buff-Color-Hardener.webp",
     alt: "Stamped concrete pool deck with color hardener — Las Vegas outdoor living",
-    caption: "Pool Deck · Outdoor Living Application",
+    caption: "·Heavy Traffic Application",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/photo1-1-1024x768.jpg",
+    src: "/Brick-red-color-hardener.webp",
     alt: "Large stamped concrete area with consistent color hardener coverage",
     caption: "Large Slab Coverage · Consistent Color",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/OIP-8.jpg",
+    src: "/Antique-Release-Walnut.webp",
     alt: "Stamped concrete walkway with antique release highlighting — stone pattern",
     caption: "Stone Pattern · Antique Highlight Detail",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/OIP-11.jpg",
+    src: "/Desert-Tan-Antique-Release.webp",
     alt: "Finished stamped concrete with Brickform color system — sealed and complete",
     caption: "Sealed Finish · Complete Color System",
   },
