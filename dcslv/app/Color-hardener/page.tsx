@@ -224,12 +224,12 @@ const carouselImages: CarouselImage[] = [
   {
     src: "/Antique-Release-Walnut.webp",
     alt: "Stamped concrete walkway with antique release highlighting — stone pattern",
-    caption: "Stone Pattern · Antique Highlight Detail",
+    caption: "Multi-tone · Antique Release Walnut Detail",
   },
   {
     src: "/Desert-Tan-Antique-Release.webp",
     alt: "Finished stamped concrete with Brickform color system — sealed and complete",
-    caption: "Sealed Finish · Complete Color System",
+    caption: "Sealed Finish · Desert Tan Antique Release",
   },
 ];
 

@@ -230,8 +230,7 @@ const products: Product[] = [
       { label: "Standard", value: "ASTM C595 / AASHTO M 240" },
       { label: "Best For", value: "High sulfate areas at/below grade" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2024/02/Portland-cement-1024x768.jpg",
+    image: "/ Portland-cement.webp",
     imageAlt:
       "CalPortland High Sulfate Resistant Portland Cement bag — Las Vegas concrete supply",
     dataSheet:
@@ -297,8 +296,7 @@ const products: Product[] = [
       { label: "Lime", value: "Type S — ASTM C-207" },
       { label: "Cement", value: "Portland Type II/V — ASTM C-150" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2024/02/motar-type-s-199x300.jpg",
+    image: "/mortar-mix-type-s.avif",
     imageAlt:
       "Paragon Type S masonry mortar mix bag — Las Vegas block and brick supply",
     dataSheet:
@@ -329,8 +327,7 @@ const products: Product[] = [
       { label: "Color Type", value: "Integral — through full slab depth" },
       { label: "Pigments", value: "UV-resistant" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2024/05/integralcolors-768x1056.jpg",
+    image: "/Color-pack-color-chart.webp",
     imageAlt:
       "Integral color packs for concrete — various colors for 50 lb cement bags",
     popular: true,
@@ -396,7 +393,7 @@ const products: Product[] = [
       { label: "Degradation", value: "UV-degradable (~4 weeks)" },
       { label: "Surfaces", value: "Vertical, horizontal, interior, exterior" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2024/02/1100.jpg",
+    image: "/1100-Concrete-Curing-Compound.webp",
     imageAlt:
       "W.R. Meadows 1100 concrete curing compound — water-based membrane",
     dataSheet: "https://www.wrmeadows.com/data/370.pdf",
@@ -427,7 +424,7 @@ const products: Product[] = [
       { label: "Effect", value: "Evaporation retardant + finishing aid" },
       { label: "W/C Ratio", value: "Not altered" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2024/02/eucobar.jpg",
+    image: "/euclid-eucobar.webp",
     imageAlt:
       "Euclid Chemical Eucobar evaporation retardant — concrete finishing aid",
     dataSheet:
@@ -463,8 +460,7 @@ const products: Product[] = [
       { label: "Permanence", value: "Becomes part of slab — no removal" },
       { label: "Benefits", value: "Densifier + finishing aid + curing agent" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2024/02/DAY1-Finishing-Aid-Products-300x163.png",
+    image: "/day1-finishing-aid.webp",
     imageAlt:
       "W.R. Meadows DAY1 finishing aid — colloidal silica concrete densifier and curing agent",
     popular: true,
@@ -496,7 +492,7 @@ const products: Product[] = [
       { label: "Bag Size", value: "100 lbs" },
       { label: "Use", value: "Broadcast, mix component, anti-slip" },
     ],
-    image: "https://dcslv.net/wp-content/uploads/2024/02/30silversand.jpg",
+    image: "/30silversand.webp",
     imageAlt:
       "Silica silver sand 100 lb bag — anti-slip aggregate and concrete mix component",
     lvNote:
