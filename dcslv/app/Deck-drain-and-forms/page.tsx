@@ -208,7 +208,7 @@ const products: Product[] = [
     ],
     images: [
       {
-        src: "https://dcslv.net/wp-content/uploads/2024/01/waterin-drain.jpg",
+        src: "/waterin-drain.webp",
         alt: "Deck drain at pool perimeter — water drainage channel in Las Vegas pool deck",
       },
       {
@@ -220,7 +220,7 @@ const products: Product[] = [
         alt: "Stegmeier deck drain white — pool deck drainage system",
       },
       {
-        src: "https://dcslv.net/wp-content/uploads/2024/01/thumbnail_image0-1004x1024.jpg",
+        src: "/stegmeier-drain-board.webp",
         alt: "Deck drain installation in concrete — Las Vegas pool deck",
       },
     ],
@@ -256,11 +256,11 @@ const products: Product[] = [
     ],
     images: [
       {
-        src: "https://dcslv.net/wp-content/uploads/2024/02/polyedge.jpg",
+        src: "/polyedge.webp",
         alt: "Poly edge cantilever form — straight 90 degree pool coping profile",
       },
       {
-        src: "https://dcslv.net/wp-content/uploads/2024/02/roundedge.jpg",
+        src: "/roundedge.webp",
         alt: "Round edge cantilever form — bullnose pool coping profile",
       },
       {
@@ -268,7 +268,7 @@ const products: Product[] = [
         alt: "Cantilever form installed at pool bond beam — Las Vegas pool deck",
       },
       {
-        src: "https://dcslv.net/wp-content/uploads/2024/01/pooldeck-forms-768x576.jpg",
+        src: "/mortex-form-board.webp",
         alt: "Pool deck cantilever forms in place before concrete pour Las Vegas",
       },
     ],
@@ -302,11 +302,11 @@ const products: Product[] = [
     ],
     images: [
       {
-        src: "https://dcslv.net/wp-content/uploads/2024/02/NDSwavesand.jpg",
+        src: "/NDSwavesand.webp",
         alt: "NDS wave sand decorative grate — 3 inch mini channel drain",
       },
       {
-        src: "https://dcslv.net/wp-content/uploads/2024/02/ndsgrayGrate.jpg",
+        src: "/ndsgrayGrate.webp",
         alt: "NDS gray grate — mini channel drain for patio and pool deck",
       },
     ],
@@ -339,11 +339,11 @@ const products: Product[] = [
     ],
     images: [
       {
-        src: "https://dcslv.net/wp-content/uploads/2024/02/metal-top-nds.jpg",
+        src: "/metal-top-nds.webp",
         alt: "NDS 5 inch Pro Series channel drain — galvanized steel metal top grate",
       },
       {
-        src: "https://dcslv.net/wp-content/uploads/2024/02/ndsgrayGrate.jpg",
+        src: "/ndsgrayGrate.webp",
         alt: "NDS Pro Series channel drain — gray grate commercial drainage",
       },
     ],
@@ -356,7 +356,7 @@ const products: Product[] = [
 ───────────────────────────────────────────── */
 const carouselImages: CarouselImage[] = [
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/01/waterin-drain.jpg",
+    src: "/waterin-drain.webp",
     alt: "Deck drain installed at pool perimeter Las Vegas",
     caption: "Pool Deck Drain · Perimeter Drainage",
   },
@@ -371,22 +371,22 @@ const carouselImages: CarouselImage[] = [
     caption: "Stegmeier Drain · White Finish",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/01/thumbnail_image0-1004x1024.jpg",
+    src: "/stegmeier-drain-board.webp",
     alt: "Deck drain in concrete — Las Vegas pool deck contractor install",
     caption: "In-Slab Drain Installation",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/01/pooldeck-forms-768x576.jpg",
+    src: "/mortex-form-board.webp",
     alt: "Cantilever pool deck forms before concrete pour Las Vegas",
     caption: "Cantilever Forms · Pre-Pour Set",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/02/polyedge.jpg",
+    src: "/polyedge.webp",
     alt: "Poly edge cantilever form — straight pool coping profile",
     caption: "Poly Edge · Straight Coping Profile",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/02/roundedge.jpg",
+    src: "/roundedge.webp",
     alt: "Round edge cantilever form — bullnose pool coping",
     caption: "Round Edge · Bullnose Coping",
   },
@@ -396,17 +396,17 @@ const carouselImages: CarouselImage[] = [
     caption: "Cantilever · Bond Beam Form",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/02/NDSwavesand.jpg",
+    src: "/NDSwavesand.webp",
     alt: "NDS wave sand decorative grate — mini channel drain",
     caption: 'NDS Wave Grate · Decorative 3" Channel',
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/02/ndsgrayGrate.jpg",
+    src: "/ndsgrayGrate.webp",
     alt: "NDS gray channel drain grate — patio and pool deck drainage",
     caption: "NDS Gray Grate · Channel Drain",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/02/metal-top-nds.jpg",
+    src: "/metal-top-nds.webp",
     alt: "NDS Pro Series metal top 5 inch channel drain Class B",
     caption: "NDS Pro Series · Steel Grate Class B",
   },

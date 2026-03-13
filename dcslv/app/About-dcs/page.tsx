@@ -296,7 +296,7 @@ const vendors = [
   },
   {
     name: "Life Specialty Coatings",
-    logo: "https://dcslv.net/wp-content/uploads/2025/06/LSC-Logo-2024-WHITE-300x68.png",
+    logo: "/life-specialty-coatings-logo.webp",
   },
   {
     name: "Solomon Colors",
@@ -312,7 +312,7 @@ const vendors = [
   },
   {
     name: "Mapei",
-    logo: "https://dcslv.net/wp-content/uploads/2025/06/logo_mapei_eng_web_12982f78579c562e49128ff01007028e96f22147179c562e49128ff00007028e96f22147179c562e49128ff00007028e9-300x90.webp",
+    logo: "/Mapei-logo.webp",
   },
   {
     name: "Preferred Deck",
@@ -324,11 +324,11 @@ const vendors = [
   },
   {
     name: "Stegmeier",
-    logo: "https://dcslv.net/wp-content/uploads/2023/11/stegmeier-300x171.jpg",
+    logo: "/Stegmeier-logo.webp",
   },
   {
     name: "W.R. Meadows",
-    logo: "https://dcslv.net/wp-content/uploads/2025/06/download.png",
+    logo: "/WR-Meadows-logo.webp",
   },
   {
     name: "Mortex",
@@ -336,11 +336,11 @@ const vendors = [
   },
   {
     name: "TCC / Brickform",
-    logo: "https://dcslv.net/wp-content/uploads/2023/11/tcc-300x300.jpg",
+    logo: "/tcc-logo.webp",
   },
   {
     name: "Makita",
-    logo: "https://dcslv.net/wp-content/uploads/2023/11/makita-logo-0-300x300.png",
+    logo: "/Makita-Logo.webp",
   },
   {
     name: "Xcel Surfaces",

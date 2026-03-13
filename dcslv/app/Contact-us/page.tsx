@@ -254,8 +254,7 @@ const Page = () => {
                 name: "Decorative Concrete Supply — South Las Vegas",
                 url: "/Contact-us/",
                 telephone: "+17027496318",
-                image:
-                  "https://dcslv.net/wp-content/uploads/2026/02/2025-logo-Deco-pdf-3.jpg",
+                image: "/dcslv-full-logo.webp",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "4125 Wagon Trail Ave",
@@ -299,8 +298,7 @@ const Page = () => {
                 name: "Decorative Concrete Supply — North Las Vegas",
                 url: "/Contact-us",
                 telephone: "+17027496318",
-                image:
-                  "https://dcslv.net/wp-content/uploads/2026/02/2025-logo-Deco-pdf-3.jpg",
+                image: "/dcslv-full-logo.webp",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "4601 E Cheyenne Ave Ste 107",
@@ -1138,27 +1136,27 @@ const Page = () => {
                     {[
                       {
                         name: "Brickform",
-                        logo: "https://dcslv.net/wp-content/uploads/2023/11/tcc-300x300.jpg",
+                        logo: "/tcc-logo.webp",
                       },
                       {
                         name: "Makita",
-                        logo: "https://dcslv.net/wp-content/uploads/2023/11/makita-logo-0-300x300.png",
+                        logo: "/Makita-Logo.webp",
                       },
                       {
                         name: "Mapei",
-                        logo: "https://dcslv.net/wp-content/uploads/2025/06/logo_mapei_eng_web_12982f78579c562e49128ff01007028e96f22147179c562e49128ff00007028e96f22147179c562e49128ff00007028e9-300x90.webp",
+                        logo: "/Mapei-logo.webp",
                       },
                       {
                         name: "W.R. Meadows",
-                        logo: "https://dcslv.net/wp-content/uploads/2025/06/download.png",
+                        logo: "/WR-Meadows-logo.webp",
                       },
                       {
                         name: "Stegmeier",
-                        logo: "https://dcslv.net/wp-content/uploads/2023/11/stegmeier-300x171.jpg",
+                        logo: "/Stegmeier-logo.webp",
                       },
                       {
                         name: "Life Deck",
-                        logo: "https://dcslv.net/wp-content/uploads/2025/06/LSC-Logo-2024-WHITE-300x68.png",
+                        logo: "/life-specialty-coatings-logo.webp",
                       },
                     ].map(({ name, logo }) => (
                       <div
