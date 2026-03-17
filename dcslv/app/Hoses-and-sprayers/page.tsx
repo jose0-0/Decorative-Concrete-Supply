@@ -1555,13 +1555,13 @@ function SectionHeader({
   );
 }
 
-function ProductCard({
+const ProductCard = ({
   product,
   onImageClick,
 }: {
   product: Product;
   onImageClick: (src: string, alt: string, caption: string) => void;
-}) {
+}) => {
   return (
     <article
       id={product.id}
@@ -1727,4 +1727,4 @@ function ProductCard({
       </div>
     </article>
   );
-}
+};

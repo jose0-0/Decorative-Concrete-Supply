@@ -173,71 +173,71 @@ const galleryPhotos = [
     alt: "DCS store interior — concrete supply shelves",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/thumbnail_IMG_5393-300x225.jpg",
-    alt: "DCS team and community event",
+    src: "/d1b2c951-cb50-45e1-aae8-c3c6540b2eb8.webp",
+    alt: "DCS Pahrump Location",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/thumbnail_IMG_7366-225x300.jpg",
+    src: "/6e4a6b4a-5641-4b60-8faf-cfd8c656ab6e.webp",
     alt: "DCS Las Vegas crew",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/thumbnail_IMG_8252-225x300.jpg",
+    src: "/28627413-06c8-4416-8ff0-d5e9704a325f.webp",
     alt: "DCS team member at work",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/andyonforkwif-300x169.jpg",
+    src: "/01f19ddf-bb5b-4c79-91d2-a3c4fa23833e.webp",
     alt: "DCS forklift operations — stocking inventory",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/01/thumbnail_image4-169x300.jpg",
+    src: "/df9fa670-d8c2-49fb-aff0-0d2620cc86a3.webp",
     alt: "DCS product display",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/North-BDAY-225x300.jpg",
+    src: "/42081566-9bdc-4de1-8700-cda2af8ac7c0.webp",
     alt: "DCS North Las Vegas location birthday celebration",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/01/thumbnail_image2-225x300.jpg",
+    src: "/41b0eecf-d6ed-4c16-857e-26bbef504c57.webp",
     alt: "DCS team community event",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/thumbnail_IMG_4223-225x300.jpg",
+    src: "/ace12734-a675-4d40-bef6-2d4c5607b644.webp",
     alt: "DCS Las Vegas store team",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/thumbnail_IMG_9896-300x225.jpg",
+    src: "/20a566ed-21fd-43c8-bd35-48598e99871e.webp",
     alt: "DCS warehouse and inventory",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/01/thumbnail_image1-300x169.jpg",
+    src: "/694cda22-9f80-4871-9d04-4db36fdfdaed.webp",
     alt: "DCS Las Vegas crew at work",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2024/01/thumbnail_image0-2-300x169.jpg",
+    src: "/73c85daa-1b8f-45e5-9b26-44186f6c2561.webp",
     alt: "DCS store front Las Vegas",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image7-225x300.webp",
+    src: "/c0459a9c-145b-41a6-948e-eab8200151b3.webp",
     alt: "DCS team 2025",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image5-225x300.webp",
+    src: "/a75eae5b-26b0-4277-a646-8bc21a2a64f5.webp",
     alt: "DCS community event 2025",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image3-225x300.webp",
+    src: "/c7aa75b4-d346-4ef9-a363-e23b8e4d6e82.webp",
     alt: "DCS Las Vegas community involvement",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image4-1-169x300.webp",
+    src: "/4605ad06-2b56-4f24-8088-a18df1f12555.webp",
     alt: "DCS team member",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image6-225x300.webp",
+    src: "/c617bacf-ac2f-4edf-b4b8-e5365aa0519a.webp",
     alt: "DCS Las Vegas 2025 event",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image4-225x300.webp",
+    src: "/e7b91b4f-e19e-4d69-8799-065f4e1409b6.webp",
     alt: "DCS product and community photo",
   },
   {
