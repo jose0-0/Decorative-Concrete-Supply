@@ -23,39 +23,39 @@ const columns: FooterColumn[] = [
     links: [
       {
         label: "Epoxy Products",
-        href: "/Epoxy-products",
+        href: "/epoxy-products",
       },
       {
         label: "Overlay / Repair",
-        href: "/Overlay",
+        href: "/overlay",
       },
       {
         label: "Sealer",
-        href: "/Sealer",
+        href: "/sealer",
       },
       {
         label: "Pool Deck",
-        href: "/Pool-deck",
+        href: "/pool-deck",
       },
       {
         label: "Waterproofing",
-        href: "/Water-proofing-systems",
+        href: "/water-proofing-systems",
       },
       {
         label: "Stains",
-        href: "/Stains",
+        href: "/stains",
       },
       {
         label: "Surface Retarder",
-        href: "/Concrete-retarder",
+        href: "/concrete-retarder",
       },
       {
         label: "Concrete & Cure",
-        href: "/Concrete-and-products",
+        href: "/concrete-and-products",
       },
       {
         label: "Rebar & Expansion",
-        href: "/Concrete-forming-and-supplies",
+        href: "/concrete-forming-and-supplies",
       },
     ],
   },
@@ -64,28 +64,28 @@ const columns: FooterColumn[] = [
     links: [
       {
         label: "Machine Rentals",
-        href: "/Machine-rentals",
+        href: "/machine-rentals",
       },
-      { label: "Stamp Rentals", href: "/Stamps" },
+      { label: "Stamp Rentals", href: "/stamps" },
       {
         label: "Color Hardener",
-        href: "/Color-hardener",
+        href: "/color-hardener",
       },
-      { label: "Deck Drain / Forms", href: "/Deck-drain-and-forms" },
-      { label: "Tools", href: "/Tools" },
-      { label: "Sprayers", href: "/Hoses-and-sprayers" },
+      { label: "Deck Drain / Forms", href: "/deck-drain-and-forms" },
+      { label: "Tools", href: "/tools" },
+      { label: "Sprayers", href: "/hoses-and-sprayers" },
     ],
   },
 ];
 
 const companyLinks: NavLink[] = [
-  { label: "About DCS", href: "/About-dcs" },
+  { label: "About DCS", href: "/about-dcs" },
   {
     label: "Articles",
     href: "/",
     external: true,
   },
-  { label: "Contact Us", href: "/Contact-us" },
+  { label: "Contact Us", href: "/contact-us" },
   {
     label: "Google Reviews",
     href: "https://www.google.com/search?q=decorative+concrete+supply+las+vegas",

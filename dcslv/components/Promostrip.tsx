@@ -10,7 +10,7 @@ const promoConfig = {
   hours: "Mon–Fri 6AM–4PM · Saturday 7AM–8:30AM · Sunday Closed",
   cta: {
     label: "Find a Location →",
-    href: "/Contact-us",
+    href: "/contact-us",
   },
 };
 

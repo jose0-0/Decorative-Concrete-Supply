@@ -27,12 +27,12 @@ export const metadata: Metadata = {
     title: "Makita Power Tools in Las Vegas — Decorative Concrete Supply",
     description:
       "Largest Makita selection in Las Vegas — angle grinders, demolition hammers, rebar cutters, HEPA vacuums, concrete vibrators & more. Two locations. Veteran-owned.",
-    url: "/Makita-tools",
+    url: "/makita-tools",
     siteName: "Decorative Concrete Supply",
     locale: "en_US",
     type: "website",
   },
-  alternates: { canonical: "/Makita-tools" },
+  alternates: { canonical: "/makita-tools" },
 };
 
 /* ─────────────────────────────────────────────
@@ -1015,21 +1015,21 @@ const faqs: FaqItem[] = [
    RELATED PRODUCTS
 ───────────────────────────────────────────── */
 const relatedProducts = [
-  { label: "All Tools", href: "/Tools" },
-  { label: "DeWalt Tools", href: "/Dewalt-power-tools" },
+  { label: "All Tools", href: "/tools" },
+  { label: "DeWalt Tools", href: "/dewalt-power-tools" },
   {
     label: "Machine Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
   {
     label: "Epoxy Products",
-    href: "/Epoxy-products",
+    href: "/epoxy-products",
   },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
-  { label: "Sealer", href: "/Sealer" },
+  { label: "Sealer", href: "/sealer" },
 ];
 const page = () => {
   return (
@@ -1044,7 +1044,7 @@ const page = () => {
             name: "Decorative Concrete Supply",
             description:
               "Makita power tools in Las Vegas — largest selection of Makita concrete and construction tools.",
-            url: "/Makita-tools",
+            url: "/makita-tools",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -1100,7 +1100,7 @@ const page = () => {
                 </Link>
                 <span aria-hidden="true">/</span>
                 <Link
-                  href="/Tools"
+                  href="/tools"
                   className="hover:text-white transition-colors"
                 >
                   Tools
@@ -1142,7 +1142,7 @@ const page = () => {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1616,7 +1616,7 @@ const page = () => {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →
@@ -1666,7 +1666,7 @@ const page = () => {
           <div className="max-w-7xl mx-auto">
             <div className="flex justify-center mb-8 reveal">
               <Link
-                href="/Tools"
+                href="/tools"
                 className="inline-flex items-center gap-2 text-sm font-head font-bold uppercase tracking-widest text-stone-500 hover:text-brand transition-colors"
               >
                 <ArrowLeftIcon className="w-4 h-4" />

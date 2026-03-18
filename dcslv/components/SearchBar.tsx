@@ -22,7 +22,7 @@ const pages: Page[] = [
     title: "Epoxy Products",
     description:
       "Premium epoxy in a variety of colors and finishes for residential and commercial floors.",
-    href: "/Epoxy-products/",
+    href: "/epoxy-products/",
     keywords: [
       "epoxy chips",
       "epoxy flakes",
@@ -34,7 +34,7 @@ const pages: Page[] = [
   {
     title: "Overlay & Repair",
     description: "Transform worn concrete surfaces without costly replacement.",
-    href: "/Overlay",
+    href: "/overlay",
     keywords: [
       "overlay",
       "repair",
@@ -47,7 +47,7 @@ const pages: Page[] = [
     title: "Sealer",
     description:
       "High-quality sealers for driveways, patios, and industrial floors.",
-    href: "/Sealer",
+    href: "/sealer",
     keywords: [
       "concrete sealer",
       "acrylic sealer",
@@ -60,7 +60,7 @@ const pages: Page[] = [
     title: "Pool Deck",
     description:
       "Create safe, beautiful poolscapes with our decorative pool deck options.",
-    href: "/Pool-deck",
+    href: "/pool-deck",
     keywords: [
       "pool deck coating",
       "pool deck paint",
@@ -72,7 +72,7 @@ const pages: Page[] = [
   {
     title: "Waterproofing Systems",
     description: "Life Deck waterproofing systems — free estimates available.",
-    href: "/Water-proofing-systems",
+    href: "/water-proofing-systems",
     keywords: [
       "waterproof",
       "water proofing",
@@ -86,7 +86,7 @@ const pages: Page[] = [
     title: "Concrete Stamps",
     description:
       "Stamp rental and supplies to achieve authentic stone and paver textures.",
-    href: "/Stamps",
+    href: "/stamps",
     keywords: [
       "stamps",
       "stamped concrete",
@@ -101,7 +101,7 @@ const pages: Page[] = [
     title: "Stains & Dyes",
     description:
       "Integral colors, acid stains, and dyes to add lasting color to any surface.",
-    href: "/Stains",
+    href: "/stains",
     keywords: [
       "acid stain",
       "concrete stain",
@@ -114,7 +114,7 @@ const pages: Page[] = [
     title: "Color Hardener",
     description:
       "Color hardener and release agents for decorative stamped concrete.",
-    href: "/Color-hardener",
+    href: "/color-hardener",
     keywords: [
       "color hardener",
       "release agent",
@@ -125,7 +125,7 @@ const pages: Page[] = [
   {
     title: "Deck Drain & Forms",
     description: "Stegmeier and Mortex drains for pools plus cantilever forms.",
-    href: "/Deck-drain-and-forms",
+    href: "/deck-drain-and-forms",
     keywords: [
       "deck drain",
       "pool drain",
@@ -139,7 +139,7 @@ const pages: Page[] = [
     title: "Surface Retarder",
     description:
       "Concrete retarders for exposed aggregate and decorative finishes.",
-    href: "/Concrete-retarder",
+    href: "/concrete-retarder",
     keywords: [
       "retarder",
       "surface retarder",
@@ -151,7 +151,7 @@ const pages: Page[] = [
     title: "Concrete, Cure & Dye",
     description:
       "Cement, mortars, curing compounds, dyes, and integral colors.",
-    href: "/Concrete-and-products",
+    href: "/concrete-and-products",
     keywords: [
       "concrete",
       "cement",
@@ -165,7 +165,7 @@ const pages: Page[] = [
     title: "Rebar & Expansion",
     description:
       "Rebar #3, #4, #5, OSHA caps, tie-wire, expansion paper, ADA tiles.",
-    href: "/Concrete-forming-and-supplies",
+    href: "/concrete-forming-and-supplies",
     keywords: [
       "rebar",
       "rebar #3",
@@ -180,7 +180,7 @@ const pages: Page[] = [
   {
     title: "Hand Tools",
     description: "Hand tools, brushes, floats, screeds, trowels and more.",
-    href: "/Tools/",
+    href: "/tools/",
     keywords: [
       "hand tools",
       "float",
@@ -196,7 +196,7 @@ const pages: Page[] = [
     title: "Sprayers & Hoses",
     description:
       "Acetone sprayers, pump sprayers, compressor sprayers and hopper guns.",
-    href: "/Hoses-and-sprayers",
+    href: "/hoses-and-sprayers",
     keywords: [
       "sprayer",
       "hose",
@@ -210,7 +210,7 @@ const pages: Page[] = [
     title: "Power Tools",
     description:
       "Makita grinders, jack hammers, Simpson pressure washers and generators.",
-    href: "/Tools",
+    href: "/tools",
     keywords: [
       "power tools",
       "makita",
@@ -226,7 +226,7 @@ const pages: Page[] = [
     title: "Machine Rentals",
     description:
       "Walk-behind grinder and vacuum rentals — we deliver and pick up.",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
     keywords: [
       "rental",
       "machine rental",
@@ -239,7 +239,7 @@ const pages: Page[] = [
   {
     title: "Contact Us",
     description: "Get in touch with our team at either Las Vegas location.",
-    href: "/Contact-us",
+    href: "/contact-us",
     keywords: [
       "contact",
       "phone",
@@ -491,7 +491,7 @@ export default function SearchBar() {
                   No results for &ldquo;
                   <span className="text-stone-600">{query}</span>&rdquo; —{" "}
                   <a
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="text-brand underline hover:no-underline"
                   >
                     contact us

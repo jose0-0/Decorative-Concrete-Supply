@@ -25,7 +25,7 @@ const products: Product[] = [
     title: "Epoxy Supplies",
     description:
       "Premium epoxy in a variety of colors and finishes for residential and commercial floors.",
-    href: "/Epoxy-products",
+    href: "/epoxy-products",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -44,7 +44,7 @@ const products: Product[] = [
     title: "Overlay / Repair",
     description:
       "Transform worn concrete into stunning surfaces without costly replacement.",
-    href: "/Overlay",
+    href: "/overlay",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -64,7 +64,7 @@ const products: Product[] = [
     title: "Sealer",
     description:
       "High-quality sealers for driveways, patios, and industrial floors.",
-    href: "/Sealer",
+    href: "/sealer",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -82,7 +82,7 @@ const products: Product[] = [
     title: "Pool Deck",
     description:
       "Create safe, beautiful poolscapes with our decorative pool deck options.",
-    href: "/Pool-deck",
+    href: "/pool-deck",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -101,7 +101,7 @@ const products: Product[] = [
   {
     title: "Waterproofing",
     description: "Life Deck waterproofing systems — free estimates available.",
-    href: "/Water-proofing-systems",
+    href: "/water-proofing-systems",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -119,7 +119,7 @@ const products: Product[] = [
     title: "Concrete Stamps",
     description:
       "Stamp rental and supplies to achieve authentic stone and paver textures.",
-    href: "/Stamps",
+    href: "/stamps",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -140,7 +140,7 @@ const products: Product[] = [
     title: "Stains & Dyes",
     description:
       "Integral colors, acid stains, and dyes to add lasting color to any surface.",
-    href: "/Stains",
+    href: "/stains",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -158,7 +158,7 @@ const products: Product[] = [
     title: "Color Hardener",
     description:
       "Color hardener and release agents for decorative stamped concrete.",
-    href: "/Color-hardener",
+    href: "/color-hardener",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -179,7 +179,7 @@ const products: Product[] = [
   {
     title: "Deck Drain & Forms",
     description: "Stegmeier and Mortex drains for pools plus cantilever forms.",
-    href: "/Deck-drain-and-forms",
+    href: "/deck-drain-and-forms",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -197,7 +197,7 @@ const products: Product[] = [
     title: "Surface Retarder",
     description:
       "Concrete retarders for exposed aggregate and decorative finishes.",
-    href: "/Concrete-retarder",
+    href: "/concrete-retarder",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -216,7 +216,7 @@ const products: Product[] = [
     title: "Concrete, Cure & Dye",
     description:
       "Cement, mortars, curing compounds, dyes, and integral colors.",
-    href: "/Concrete-and-products",
+    href: "/concrete-and-products",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -236,7 +236,7 @@ const products: Product[] = [
     title: "Rebar & Expansion",
     description:
       "Rebar #3, #4, #5, OSHA caps, tie-wire, expansion paper, ADA tiles.",
-    href: "/Concrete-forming-and-supplies",
+    href: "/concrete-forming-and-supplies",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -257,7 +257,7 @@ const products: Product[] = [
   {
     title: "Tools",
     description: "Hand & power tools, brushes, floats, screeds and more.",
-    href: "/Tools",
+    href: "/tools",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -275,7 +275,7 @@ const products: Product[] = [
     title: "Sprayers",
     description:
       "Acetone sprayers, pump sprayers, compressor sprayers and hopper guns.",
-    href: "/Hoses-and-sprayers",
+    href: "/hoses-and-sprayers",
     icon: (
       <svg
         className="w-5 h-5 text-brand"
@@ -295,7 +295,7 @@ const products: Product[] = [
   //   title: "Power Tools",
   //   description:
   //     "Makita grinders, jack hammers, Simpson pressure washers and generators.",
-  //   href: "/Tools",
+  //   href: "/tools",
   //   icon: (
   //     <svg
   //       className="w-5 h-5 text-brand"
@@ -313,7 +313,7 @@ const products: Product[] = [
     title: "Machine Rentals",
     description:
       "Walk-behind grinder and vacuum rentals — we deliver and pick up.",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
     cta: "Rent Now →",
     featured: true,
     icon: (

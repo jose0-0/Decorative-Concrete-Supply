@@ -29,12 +29,12 @@ export const metadata: Metadata = {
       "Concrete & Construction Tools in Las Vegas — Decorative Concrete Supply",
     description:
       "DeWalt, Makita, Marshalltown, Husqvarna, Mi-T-M & Simpson tools. Hand tools, power tools, screeds, floats & accessories. Two Las Vegas locations.",
-    url: "/Tools",
+    url: "/tools",
     siteName: "Decorative Concrete Supply",
     locale: "en_US",
     type: "website",
   },
-  alternates: { canonical: "/Tools" },
+  alternates: { canonical: "/tools" },
 };
 
 /* ─────────────────────────────────────────────
@@ -266,7 +266,7 @@ const categories: ToolCategory[] = [
       "Multiple radius & lip depth options",
       "DuraSoft® ergonomic handles",
     ],
-    subpageHref: "/Hand-tools",
+    subpageHref: "/hand-tools",
     icon: <WrenchIcon className="w-6 h-6 text-brand" />,
   },
   {
@@ -284,7 +284,7 @@ const categories: ToolCategory[] = [
       "DCF850B ATOMIC 20V Impact Driver — 1,825 in-lbs",
       "DCE531B 20V MAX Pencil Concrete Vibrator — 14,000 VPM",
     ],
-    subpageHref: "/Dewalt-power-tools/",
+    subpageHref: "/dewalt-power-tools/",
     icon: <ZapIcon className="w-6 h-6 text-brand" />,
   },
   {
@@ -304,7 +304,7 @@ const categories: ToolCategory[] = [
       "XRV02T 18V concrete vibrator — 12,500 VPM",
       "HM1812X3 70 lb AVT breaker hammer",
     ],
-    subpageHref: "/Makita-tools",
+    subpageHref: "/makita-tools",
     icon: <ZapIcon className="w-6 h-6 text-brand" />,
   },
   {
@@ -545,7 +545,7 @@ const faqs: FaqItem[] = [
   {
     question: "Do you carry Marshalltown edgers?",
     answer:
-      'Yes — we carry the full Marshalltown hand and walking edger line. Hand edgers are available in curved-end and straight-end styles with blue steel blades and DuraSoft® handles. Walking edgers are 10" × 6" heavy 16-gauge stainless steel with a 2-way cast aluminum bracket for walking behind the tool. Multiple radius and lip depths available. Visit our product page at dcslv.net/Tools for full selection details.',
+      'Yes — we carry the full Marshalltown hand and walking edger line. Hand edgers are available in curved-end and straight-end styles with blue steel blades and DuraSoft® handles. Walking edgers are 10" × 6" heavy 16-gauge stainless steel with a 2-way cast aluminum bracket for walking behind the tool. Multiple radius and lip depths available. Visit our product page at dcslv.net/tools for full selection details.',
   },
   {
     question: "Do you stock Makita demolition hammers?",
@@ -574,23 +574,23 @@ const faqs: FaqItem[] = [
    RELATED LINKS
 ───────────────────────────────────────────── */
 const relatedProducts = [
-  { label: "Sprayers", href: "/Hoses-and-sprayers" },
+  { label: "Sprayers", href: "/hoses-and-sprayers" },
   {
     label: "Machine Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
-  { label: "Stamp Rentals", href: "/Stamps" },
+  { label: "Stamp Rentals", href: "/stamps" },
   {
     label: "Rebar & Expansion",
-    href: "/Concrete-forming-and-supplies",
+    href: "/concrete-forming-and-supplies",
   },
   {
     label: "Epoxy Products",
-    href: "/Epoxy-products",
+    href: "/epoxy-products",
   },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
 ];
 const page = () => {
@@ -606,7 +606,7 @@ const page = () => {
             name: "Decorative Concrete Supply",
             description:
               "Concrete and construction tools in Las Vegas — DeWalt, Makita, Marshalltown, Husqvarna & more.",
-            url: "/Tools",
+            url: "/tools",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -696,7 +696,7 @@ const page = () => {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1037,7 +1037,7 @@ const page = () => {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →

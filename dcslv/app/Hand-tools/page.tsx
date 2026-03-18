@@ -29,12 +29,12 @@ export const metadata: Metadata = {
       "Concrete Hand & Walking Edgers in Las Vegas — Decorative Concrete Supply",
     description:
       "Marshalltown hand edgers and stainless steel walking edgers. Multiple radius and lip sizes. Made in the USA. Two Las Vegas locations. Veteran-owned.",
-    url: "/Hand-tools",
+    url: "/hand-tools",
     siteName: "Decorative Concrete Supply",
     locale: "en_US",
     type: "website",
   },
-  alternates: { canonical: "/Hand-tools" },
+  alternates: { canonical: "/hand-tools" },
 };
 
 /* ─────────────────────────────────────────────
@@ -381,20 +381,20 @@ const faqs: FaqItem[] = [
    RELATED PRODUCTS
 ───────────────────────────────────────────── */
 const relatedProducts = [
-  { label: "All Tools", href: "/Tools" },
-  { label: "Stamp Rentals", href: "/Stamps" },
+  { label: "All Tools", href: "/tools" },
+  { label: "Stamp Rentals", href: "/stamps" },
   {
     label: "Color Hardener",
-    href: "/Color-hardener/",
+    href: "/color-hardener/",
   },
-  { label: "Concrete Retarder", href: "/Concrete-retarder" },
+  { label: "Concrete Retarder", href: "/concrete-retarder" },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
   {
     label: "Machine Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
 ];
 const page = () => {
@@ -410,7 +410,7 @@ const page = () => {
             name: "Decorative Concrete Supply",
             description:
               "Marshalltown concrete hand edgers and walking edgers in Las Vegas, NV.",
-            url: "/Tools",
+            url: "/tools",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -483,7 +483,7 @@ const page = () => {
                 </Link>
                 <span aria-hidden="true">/</span>
                 <Link
-                  href="/Tools"
+                  href="/tools"
                   className="hover:text-white transition-colors"
                 >
                   Tools
@@ -523,7 +523,7 @@ const page = () => {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1050,7 +1050,7 @@ const page = () => {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →
@@ -1103,7 +1103,7 @@ const page = () => {
             {/* Back to tools */}
             <div className="flex justify-center mb-8 reveal">
               <Link
-                href="/Tools"
+                href="/tools"
                 className="inline-flex items-center gap-2 text-sm font-head font-bold uppercase tracking-widest text-stone-500 hover:text-brand transition-colors"
               >
                 <ArrowLeftIcon className="w-4 h-4" />

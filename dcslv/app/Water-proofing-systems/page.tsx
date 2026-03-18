@@ -27,13 +27,13 @@ export const metadata: Metadata = {
     title: "Waterproofing Systems in Las Vegas — Decorative Concrete Supply",
     description:
       "Life Deck FM, AL, MC & LD-2000 waterproofing systems for balconies, elevated decks & concrete. Two Las Vegas locations. Veteran-owned & operated.",
-    url: "/Water-proofing-systems",
+    url: "/water-proofing-systems",
     siteName: "Decorative Concrete Supply",
     locale: "en_US",
     type: "website",
   },
   alternates: {
-    canonical: "/Water-proofing-systems",
+    canonical: "/water-proofing-systems",
   },
 };
 
@@ -474,21 +474,21 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Pool Deck",
-    href: "/Pool-deck",
+    href: "/pool-deck",
   },
-  { label: "Deck Drain / Forms", href: "/Deck-drain-and-forms" },
-  { label: "Sealer", href: "/Sealer" },
+  { label: "Deck Drain / Forms", href: "/deck-drain-and-forms" },
+  { label: "Sealer", href: "/sealer" },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
   {
     label: "Epoxy Products",
-    href: "/Epoxy-products",
+    href: "/epoxy-products",
   },
   {
     label: "Machine Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
 ];
 const page = () => {
@@ -504,7 +504,7 @@ const page = () => {
             name: "Decorative Concrete Supply",
             description:
               "Deck waterproofing systems in Las Vegas, NV — Life Deck FM, AL, MC & LD-2000 systems plus all components.",
-            url: "/Water-proofing-systems",
+            url: "/water-proofing-systems",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -612,7 +612,7 @@ const page = () => {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1125,7 +1125,7 @@ const page = () => {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →

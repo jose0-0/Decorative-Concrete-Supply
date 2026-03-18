@@ -5,40 +5,40 @@ import Link from "next/link";
 const navLinks = [
   {
     label: "Epoxy",
-    href: "/Epoxy-products",
+    href: "/epoxy-products",
   },
-  { label: "Overlay", href: "/Overlay" },
-  { label: "Sealer", href: "/Sealer" },
+  { label: "Overlay", href: "/overlay" },
+  { label: "Sealer", href: "/sealer" },
   {
     label: "Pool Deck",
-    href: "/Pool-deck",
+    href: "/pool-deck",
   },
-  { label: "Waterproofing", href: "/Water-proofing-systems" },
-  { label: "Stains", href: "/Stains" },
+  { label: "Waterproofing", href: "/water-proofing-systems" },
+  { label: "Stains", href: "/stains" },
   {
     label: "Machine Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
-  { label: "Tools", href: "/Tools" },
+  { label: "Tools", href: "/tools" },
 ];
 
 const mobileLinks = [
   ...navLinks,
-  { label: "Stamp Rentals", href: "/Stamps" },
+  { label: "Stamp Rentals", href: "/stamps" },
   {
     label: "Color Hardener",
-    href: "/Color-hardener",
+    href: "/color-hardener",
   },
-  { label: "Concrete Retarder", href: "/Concrete-retarder" },
+  { label: "Concrete Retarder", href: "/concrete-retarder" },
   {
     label: "Concrete & Cure",
-    href: "/Concrete-and-products",
+    href: "/concrete-and-products",
   },
   {
     label: "Rebar & Expansion",
-    href: "/Concrete-forming-and-supplies",
+    href: "/concrete-forming-and-supplies",
   },
-  { label: "Sprayers", href: "/Hoses-and-sprayers" },
+  { label: "Sprayers", href: "/hoses-and-sprayers" },
 ];
 
 const Nav = () => {
@@ -115,7 +115,7 @@ const Nav = () => {
               Reviews
             </Link>
             <Link
-              href="/Contact-us"
+              href="/contact-us"
               className="px-4 py-2 bg-brand hover:bg-brand-dark rounded text-white text-xs font-semibold tracking-widest uppercase transition-colors whitespace-nowrap"
             >
               Contact Us
@@ -134,7 +134,7 @@ const Nav = () => {
               Reviews
             </Link>
             <Link
-              href="/Contact-us"
+              href="/contact-us"
               className="px-4 py-2 bg-brand hover:bg-brand-dark rounded text-white text-xs font-semibold tracking-widest uppercase transition-colors whitespace-nowrap"
             >
               Contact Us
@@ -201,7 +201,7 @@ const Nav = () => {
             Google Reviews
           </Link>
           <Link
-            href="/Contact-us"
+            href="/contact-us"
             onClick={closeMenu}
             className="text-center py-3.5 bg-brand rounded font-head font-bold text-lg uppercase tracking-wide text-white"
           >

@@ -161,7 +161,7 @@ const Services = () => {
             </h2>
           </div>
           <Link
-            href="/Machine-rentals"
+            href="/machine-rentals"
             className="font-head font-bold text-sm uppercase tracking-widest text-brand flex items-center gap-2 group"
           >
             All Services{" "}

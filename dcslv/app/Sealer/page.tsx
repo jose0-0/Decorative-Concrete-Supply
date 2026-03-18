@@ -27,13 +27,13 @@ export const metadata: Metadata = {
     title: "Concrete Sealers in Las Vegas — Decorative Concrete Supply",
     description:
       "Acrylic, urethane, polyaspartic, penetrating & densifier sealers. Two Las Vegas locations. Veteran-owned & operated.",
-    url: "/Sealer",
+    url: "/sealer",
     siteName: "Decorative Concrete Supply",
     locale: "en_US",
     type: "website",
   },
   alternates: {
-    canonical: "/Sealer",
+    canonical: "/sealer",
   },
 };
 
@@ -488,22 +488,22 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Epoxy Products",
-    href: "/Epoxy-products",
+    href: "/epoxy-products",
   },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
   {
     label: "Stains & Dyes",
-    href: "/Stains",
+    href: "/stains",
   },
   {
     label: "Pool Deck",
-    href: "/Pool-deck",
+    href: "/pool-deck",
   },
-  { label: "Waterproofing", href: "/Water-proofing-systems" },
-  { label: "Concrete Stamps", href: "/Stamps" },
+  { label: "Waterproofing", href: "/water-proofing-systems" },
+  { label: "Concrete Stamps", href: "/stamps" },
 ];
 
 /* ─────────────────────────────────────────────
@@ -575,7 +575,7 @@ const page = () => {
             name: "Decorative Concrete Supply",
             description:
               "Concrete sealers in Las Vegas, NV — acrylic, polyurethane, polyaspartic, penetrating & densifier sealers.",
-            url: "/Sealer",
+            url: "/sealer",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -680,7 +680,7 @@ const page = () => {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1020,7 +1020,7 @@ const page = () => {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →

@@ -323,20 +323,20 @@ const faqs: FaqItem[] = [
    RELATED PRODUCTS
 ───────────────────────────────────────────── */
 const relatedProducts = [
-  { label: "Stamp Rentals", href: "/Stamps" },
-  { label: "Sealer", href: "/Sealer" },
-  { label: "Concrete Retarder", href: "/Concrete-retarder/" },
+  { label: "Stamp Rentals", href: "/stamps" },
+  { label: "Sealer", href: "/sealer" },
+  { label: "Concrete Retarder", href: "/concrete-retarder/" },
   {
     label: "Concrete, Cure & Dye",
-    href: "/Concrete-and-products/",
+    href: "/concrete-and-products/",
   },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
   {
     label: "Equipment Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
 ];
 
@@ -572,7 +572,7 @@ export default function ColorHardenerPage() {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1137,7 +1137,7 @@ export default function ColorHardenerPage() {
               </div>
               <div className="shrink-0">
                 <Link
-                  href="/Concrete-retarder"
+                  href="/concrete-retarder"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-brand hover:bg-brand-dark text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                 >
                   Shop Retarder →
@@ -1245,7 +1245,7 @@ export default function ColorHardenerPage() {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →

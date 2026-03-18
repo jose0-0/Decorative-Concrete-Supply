@@ -13,8 +13,8 @@ import { useState, useEffect, useCallback } from "react";
      title: "Concrete Stamp Rentals in Las Vegas, NV | Decorative Concrete Supply",
      description: "Rent concrete stamps in Las Vegas — 12 patterns including Roman Slate, Italian Slate, Ashlar Cut, London Cobble, Boardwalk Planks, Herringbone Brick & more. Proline & Brickform. Same-day pickup at 2 locations. Color hardener & release sold in-store. Call (702) 749-6318.",
      keywords: ["concrete stamp rental Las Vegas","stamp rental Las Vegas NV","stamped concrete tools Las Vegas","Roman Slate stamp Las Vegas","Italian Slate stamp Las Vegas","Ashlar Cut stamp rental Las Vegas","London Cobble stamp rental Las Vegas","Proline stamp rental Las Vegas","Brickform stamp rental Las Vegas","concrete stamping tools Las Vegas","decorative concrete stamp Las Vegas","stamped concrete contractor supply Las Vegas"],
-     openGraph: { title: "Concrete Stamp Rentals in Las Vegas — Decorative Concrete Supply", description: "12 stamp patterns from Proline & Brickform. Slate, stone, cobble, brick & plank patterns. Color hardener & release in-store. Two Las Vegas locations.", url: "/Stamps", siteName: "Decorative Concrete Supply", locale: "en_US", type: "website" },
-     alternates: { canonical: "/Stamps" },
+     openGraph: { title: "Concrete Stamp Rentals in Las Vegas — Decorative Concrete Supply", description: "12 stamp patterns from Proline & Brickform. Slate, stone, cobble, brick & plank patterns. Color hardener & release in-store. Two Las Vegas locations.", url: "/stamps", siteName: "Decorative Concrete Supply", locale: "en_US", type: "website" },
+     alternates: { canonical: "/stamps" },
    };
    export default function Layout({ children }: { children: React.ReactNode }) { return <>{children}</>; }
 ───────────────────────────────────────────── */
@@ -566,19 +566,19 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Color Hardener / Release",
-    href: "/Color-hardener",
+    href: "/color-hardener",
   },
-  { label: "Sealer", href: "/Sealer" },
+  { label: "Sealer", href: "/sealer" },
   {
     label: "Equipment Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
-  { label: "Concrete Retarder", href: "/Concrete-retarder" },
+  { label: "Concrete Retarder", href: "/concrete-retarder" },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
-  { label: "Tools", href: "/Tools" },
+  { label: "Tools", href: "/tools" },
 ];
 
 /* ─────────────────────────────────────────────
@@ -632,7 +632,7 @@ export default function StampRentalsPage() {
             name: "Decorative Concrete Supply",
             description:
               "Concrete stamp rentals in Las Vegas — 12 Proline and Brickform patterns.",
-            url: "/Stamps",
+            url: "/stamps",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -735,7 +735,7 @@ export default function StampRentalsPage() {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1116,7 +1116,7 @@ export default function StampRentalsPage() {
               Use concrete retarder on the surface in summer to extend your
               working time.
               <a
-                href="/Concrete-retarder"
+                href="/concrete-retarder"
                 className="text-brand font-semibold hover:underline ml-1"
               >
                 We stock it →

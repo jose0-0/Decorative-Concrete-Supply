@@ -663,17 +663,17 @@ const faqs: FaqItem[] = [
    RELATED PRODUCTS
 ───────────────────────────────────────────── */
 const relatedProducts = [
-  { label: "Sealer", href: "/Sealer" },
-  { label: "Stains", href: "/Stains" },
-  { label: "Concrete Retarder", href: "/Concrete-retarder" },
+  { label: "Sealer", href: "/sealer" },
+  { label: "Stains", href: "/stains" },
+  { label: "Concrete Retarder", href: "/concrete-retarder" },
   {
     label: "Concrete, Cure & Dye",
-    href: "/Concrete-and-products",
+    href: "/concrete-and-products",
   },
-  { label: "Tools", href: "/Tools" },
+  { label: "Tools", href: "/tools" },
   {
     label: "Machine Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
 ];
 const Page = () => {
@@ -717,7 +717,7 @@ const Page = () => {
             "@context": "https://schema.org",
             "@type": "Store",
             name: "Decorative Concrete Supply",
-            url: "/Hoses-and-sprayers",
+            url: "/hoses-and-sprayers",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -823,7 +823,7 @@ const Page = () => {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1413,7 +1413,7 @@ const Page = () => {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →

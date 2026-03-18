@@ -27,13 +27,13 @@ export const metadata: Metadata = {
     title: "Concrete Stains in Las Vegas — Decorative Concrete Supply",
     description:
       "Americrete A-1000 & Life Deck 20 Series water-based concrete stains. 18+ standard colors, custom tinting, heat-reflective options. Two Las Vegas locations. Veteran-owned.",
-    url: "/Stains",
+    url: "/stains",
     siteName: "Decorative Concrete Supply",
     locale: "en_US",
     type: "website",
   },
   alternates: {
-    canonical: "/Stains",
+    canonical: "/stains",
   },
 };
 
@@ -408,26 +408,26 @@ const faqs: FaqItem[] = [
    RELATED PRODUCTS
 ───────────────────────────────────────────── */
 const relatedProducts = [
-  { label: "Sealer", href: "/Sealer" },
+  { label: "Sealer", href: "/sealer" },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
   {
     label: "Pool Deck",
-    href: "/Pool-deck",
+    href: "/pool-deck",
   },
   {
     label: "Epoxy Products",
-    href: "/Epoxy-products",
+    href: "/epoxy-products",
   },
   {
     label: "Color Hardener",
-    href: "/Color-hardener",
+    href: "/color-hardener",
   },
   {
     label: "Concrete & Cure",
-    href: "/Concrete-and-products",
+    href: "/concrete-and-products",
   },
 ];
 
@@ -444,7 +444,7 @@ const page = () => {
             name: "Decorative Concrete Supply",
             description:
               "Concrete stains in Las Vegas, NV — Americrete A-1000 & Life Deck 20 Series water-based stains.",
-            url: "/Stains",
+            url: "/stains",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -549,7 +549,7 @@ const page = () => {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1030,7 +1030,7 @@ const page = () => {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →

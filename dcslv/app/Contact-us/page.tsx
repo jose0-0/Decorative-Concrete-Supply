@@ -252,7 +252,7 @@ const Page = () => {
                 "@type": "LocalBusiness",
                 "@id": "/#south",
                 name: "Decorative Concrete Supply — South Las Vegas",
-                url: "/Contact-us/",
+                url: "/contact-us/",
                 telephone: "+17027496318",
                 image: "/dcslv-full-logo.webp",
                 address: {
@@ -296,7 +296,7 @@ const Page = () => {
                 "@type": "LocalBusiness",
                 "@id": "/#north",
                 name: "Decorative Concrete Supply — North Las Vegas",
-                url: "/Contact-us",
+                url: "/contact-us",
                 telephone: "+17027496318",
                 image: "/dcslv-full-logo.webp",
                 address: {

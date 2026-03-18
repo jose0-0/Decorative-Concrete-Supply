@@ -86,7 +86,7 @@ const Whydcs = () => {
 
             {/* CTA */}
             <Link
-              href="/Contact-us"
+              href="/contact-us"
               className="inline-flex items-center gap-2 px-7 py-3.5 bg-brand hover:bg-brand-dark text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
             >
               Get in Touch →

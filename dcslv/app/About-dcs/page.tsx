@@ -390,42 +390,42 @@ const values = [
 const productLinks = [
   {
     label: "Epoxy Products",
-    href: "/Epoxy-products",
+    href: "/epoxy-products",
   },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
-  { label: "Sealer", href: "/Sealer" },
+  { label: "Sealer", href: "/sealer" },
   {
     label: "Pool Deck",
-    href: "/Pool-deck",
+    href: "/pool-deck",
   },
-  { label: "Waterproofing", href: "/Water-proofing-systems" },
-  { label: "Stains", href: "/Stains" },
-  { label: "Stamp Rentals", href: "/Stamps" },
+  { label: "Waterproofing", href: "/water-proofing-systems" },
+  { label: "Stains", href: "/stains" },
+  { label: "Stamp Rentals", href: "/stamps" },
   {
     label: "Color Hardener",
-    href: "/Color-hardener",
+    href: "/color-hardener",
   },
-  { label: "Concrete Retarder", href: "/Concrete-retarder" },
+  { label: "Concrete Retarder", href: "/concrete-retarder" },
   {
     label: "Concrete, Cure & Dye",
-    href: "/Concrete-and-products",
+    href: "/concrete-and-products",
   },
   {
     label: "Rebar & Expansion",
-    href: "/Concrete-forming-and-supplies",
+    href: "/concrete-forming-and-supplies",
   },
-  { label: "Tools", href: "/Tools" },
-  { label: "Deck Drain / Forms", href: "/Deck-drain-and-forms" },
+  { label: "Tools", href: "/tools" },
+  { label: "Deck Drain / Forms", href: "/deck-drain-and-forms" },
   {
     label: "Equipment Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
-  { label: "Sprayers", href: "/Hoses-and-sprayers" },
+  { label: "Sprayers", href: "/hoses-and-sprayers" },
 ];
-const page = () => {
+const Page = () => {
   const [lightbox, setLightbox] = useState<{
     src: string;
     alt: string;
@@ -1299,4 +1299,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

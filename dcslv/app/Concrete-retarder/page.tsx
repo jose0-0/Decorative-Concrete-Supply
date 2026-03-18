@@ -396,23 +396,23 @@ const lightboxImages: LightboxImage[] = [
    RELATED PRODUCTS
 ───────────────────────────────────────────── */
 const relatedProducts = [
-  { label: "Stamp Rentals", href: "/Stamps" },
+  { label: "Stamp Rentals", href: "/stamps" },
   {
     label: "Color Hardener/Release",
-    href: "/Color-hardener",
+    href: "/color-hardener",
   },
-  { label: "Sealer", href: "/Sealer" },
+  { label: "Sealer", href: "/sealer" },
   {
     label: "Concrete, Cure & Dye",
-    href: "/Concrete-and-products/",
+    href: "/concrete-and-products/",
   },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
-  { label: "Tools", href: "/Tools" },
+  { label: "Tools", href: "/tools" },
 ];
-const page = () => {
+const Page = () => {
   const [lightboxIdx, setLightboxIdx] = useState<number | null>(null);
   const [hoveredDepth, setHoveredDepth] = useState<number | null>(null);
 
@@ -443,7 +443,7 @@ const page = () => {
             "@context": "https://schema.org",
             "@type": "Store",
             name: "Decorative Concrete Supply",
-            url: "/Concrete-retarder",
+            url: "/concrete-retarder",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -1319,7 +1319,7 @@ const page = () => {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →
@@ -1496,4 +1496,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

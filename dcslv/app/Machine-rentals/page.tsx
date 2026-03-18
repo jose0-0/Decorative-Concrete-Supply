@@ -29,13 +29,13 @@ export const metadata: Metadata = {
       "Construction Machine Rentals in Las Vegas — Decorative Concrete Supply",
     description:
       "Walk-behind grinders, floor polishing machines & soft-cut saws for rent in Las Vegas. Delivery & pickup available. Veteran-owned & operated.",
-    url: "/Machine-rentals",
+    url: "/machine-rentals",
     siteName: "Decorative Concrete Supply",
     locale: "en_US",
     type: "website",
   },
   alternates: {
-    canonical: "/Machine-rentals",
+    canonical: "/machine-rentals",
   },
 };
 
@@ -409,18 +409,18 @@ const faqs: FaqItem[] = [
    RELATED LINKS
 ───────────────────────────────────────────── */
 const relatedProducts = [
-  { label: "Stamp Rentals", href: "/Stamps" },
+  { label: "Stamp Rentals", href: "/stamps" },
   {
     label: "Epoxy Products",
-    href: "/Epoxy-products",
+    href: "/epoxy-products",
   },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
-  { label: "Sealer", href: "/Sealer" },
-  { label: "Tools", href: "/Tools" },
-  { label: "Sprayers", href: "/Hoses-and-sprayers" },
+  { label: "Sealer", href: "/sealer" },
+  { label: "Tools", href: "/tools" },
+  { label: "Sprayers", href: "/hoses-and-sprayers" },
 ];
 const page = () => {
   return (
@@ -435,7 +435,7 @@ const page = () => {
             name: "Decorative Concrete Supply",
             description:
               "Construction Machine rentals in Las Vegas — concrete grinders, floor polishing machines & soft-cut saws.",
-            url: "/Machine-rentals",
+            url: "/machine-rentals",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -539,7 +539,7 @@ const page = () => {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -936,7 +936,7 @@ const page = () => {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →

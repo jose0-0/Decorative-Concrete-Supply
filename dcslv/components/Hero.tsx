@@ -48,13 +48,13 @@ const Hero = () => {
 
           <div className="flex flex-wrap gap-3 mb-12 animate-slide-up">
             <Link
-              href="/Contact-us"
+              href="/contact-us"
               className="px-7 py-3.5 bg-brand hover:bg-brand-dark text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
             >
               Contact Us
             </Link>
             <Link
-              href="/Machine-rentals"
+              href="/machine-rentals"
               className="px-7 py-3.5 border-2 border-stone-300 hover:border-stone-500 text-stone-700 font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
             >
               Rental Machinery

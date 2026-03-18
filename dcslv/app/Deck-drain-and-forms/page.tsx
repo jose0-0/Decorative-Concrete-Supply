@@ -459,22 +459,22 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Pool Deck",
-    href: "/Pool-deck",
+    href: "/pool-deck",
   },
   {
     label: "Waterproofing Systems",
-    href: "/Water-proofing-systems",
+    href: "/water-proofing-systems",
   },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
-  { label: "Sealer", href: "/Sealer" },
+  { label: "Sealer", href: "/sealer" },
   {
     label: "Rebar & Expansion",
-    href: "/Concrete-forming-and-supplies",
+    href: "/concrete-forming-and-supplies",
   },
-  { label: "Tools", href: "/Tools" },
+  { label: "Tools", href: "/tools" },
 ];
 
 const catAccent: Record<string, string> = {
@@ -599,7 +599,7 @@ export default function DeckDrainPage() {
             "@context": "https://schema.org",
             "@type": "Store",
             name: "Decorative Concrete Supply",
-            url: "/Deck-drain-and-forms",
+            url: "/deck-drain-and-forms",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -701,7 +701,7 @@ export default function DeckDrainPage() {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1284,7 +1284,7 @@ export default function DeckDrainPage() {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →

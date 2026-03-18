@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     title: "Epoxy Products in Las Vegas — Decorative Concrete Supply",
     description:
       "Premium epoxy coatings, flakes, metallics & vapor seal primers. Two Las Vegas locations. Veteran-owned & operated.",
-    url: "/Epoxy-products",
+    url: "/epoxy-products",
     siteName: "Decorative Concrete Supply",
     locale: "en_US",
     type: "website",
   },
   alternates: {
-    canonical: "/Epoxy-products",
+    canonical: "/epoxy-products",
   },
 };
 
@@ -315,24 +315,24 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
-  { label: "Sealer", href: "/Sealer" },
+  { label: "Sealer", href: "/sealer" },
   {
     label: "Stains & Dyes",
-    href: "/Stains",
+    href: "/stains",
   },
   {
     label: "Color Hardener",
-    href: "/Color-hardener",
+    href: "/color-hardener",
   },
   {
     label: "Concrete & Cure",
-    href: "/Concrete-and-products",
+    href: "/concrete-and-products",
   },
   {
     label: "Machine Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
 ];
 
@@ -352,7 +352,7 @@ export default function EpoxyProductsPage() {
             name: "Decorative Concrete Supply",
             description:
               "Premium epoxy coatings, flakes, metallics and concrete supplies in Las Vegas, NV.",
-            url: "/Epoxy-products",
+            url: "/epoxy-products",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -459,7 +459,7 @@ export default function EpoxyProductsPage() {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -754,7 +754,7 @@ export default function EpoxyProductsPage() {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →

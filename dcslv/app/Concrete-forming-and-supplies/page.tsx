@@ -616,21 +616,21 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Concrete, Cure & Dye",
-    href: "/Concrete-and-products",
+    href: "/concrete-and-products",
   },
   { label: "Deck Drain / Forms", href: "/deck-drain-and-forms/" },
-  { label: "Tools", href: "/Tools" },
+  { label: "Tools", href: "/tools" },
   {
     label: "Equipment Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
-  { label: "Sealer", href: "/Sealer" },
+  { label: "Sealer", href: "/sealer" },
   {
     label: "Overlay / Repair",
-    href: "/Overlay",
+    href: "/overlay",
   },
 ];
-const page = () => {
+const Page = () => {
   const [lightbox, setLightbox] = useState<{
     src: string;
     alt: string;
@@ -669,7 +669,7 @@ const page = () => {
             "@context": "https://schema.org",
             "@type": "Store",
             name: "Decorative Concrete Supply",
-            url: "/Concrete-forming-and-supplies",
+            url: "/concrete-forming-and-supplies",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -770,7 +770,7 @@ const page = () => {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1176,7 +1176,7 @@ const page = () => {
                       Expansion Paper — All Sizes
                     </h3>
                     <span className="text-stone-400 text-xs font-light">
-                      All 1/2" thick · 10' lengths
+                      All 1/2&quot; thick · 10&apos; lengths
                     </span>
                   </div>
                   <div className="overflow-x-auto">
@@ -1310,10 +1310,10 @@ const page = () => {
                   </h3>
                   <p className="text-stone-400 text-sm font-light leading-relaxed max-w-xl">
                     Las Vegas sees 25°F winter nights and 120°F summer days — a
-                    95°F swing. Concrete expands roughly 0.0000065\" per inch
-                    per °F. A 20-foot slab can move{" "}
+                    95°F swing. Concrete expands roughly 0.0000065\&quot; per
+                    inch per °F. A 20-foot slab can move{" "}
                     <strong className="text-stone-200">
-                      nearly 1/4\" seasonally
+                      nearly 1/4\&quot; seasonally
                     </strong>
                     . Without proper isolation joints, that movement cracks
                     against adjacent structures. Size your expansion joint to
@@ -1452,7 +1452,7 @@ const page = () => {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →
@@ -1558,7 +1558,7 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
 
 function SectionHeader({
   category,

@@ -29,13 +29,13 @@ export const metadata: Metadata = {
       "Concrete Overlay & Repair Products in Las Vegas — Decorative Concrete Supply",
     description:
       "Mapei, Life Deck, Xcel, Euclid & Sika overlay and repair systems. Two Las Vegas locations. Veteran-owned & operated.",
-    url: "/Overlay",
+    url: "/overlay",
     siteName: "Decorative Concrete Supply",
     locale: "en_US",
     type: "website",
   },
   alternates: {
-    canonical: "/Overlay",
+    canonical: "/overlay",
   },
 };
 
@@ -586,21 +586,21 @@ const faqs: FaqItem[] = [
 const relatedProducts = [
   {
     label: "Epoxy Products",
-    href: "/Epoxy-products",
+    href: "/epoxy-products",
   },
-  { label: "Sealer", href: "/Sealer" },
+  { label: "Sealer", href: "/sealer" },
   {
     label: "Stains & Dyes",
-    href: "/Stains",
+    href: "/stains",
   },
   {
     label: "Pool Deck",
-    href: "/Pool-deck",
+    href: "/pool-deck",
   },
-  { label: "Waterproofing", href: "/Water-proofing-systems" },
+  { label: "Waterproofing", href: "/water-proofing-systems" },
   {
     label: "Machine Rentals",
-    href: "/Machine-rentals",
+    href: "/machine-rentals",
   },
 ];
 
@@ -677,7 +677,7 @@ const page = () => {
             name: "Decorative Concrete Supply",
             description:
               "Concrete overlay and repair products in Las Vegas, NV — Mapei, Life Deck, Xcel, Euclid & Sika.",
-            url: "/Overlay",
+            url: "/overlay",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -784,7 +784,7 @@ const page = () => {
                   (702) 749-6318
                 </a>
                 <Link
-                  href="/Contact-us"
+                  href="/contact-us"
                   className="inline-flex items-center gap-2 px-7 py-3.5 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all hover:-translate-y-0.5"
                 >
                   Get Directions →
@@ -1070,7 +1070,7 @@ const page = () => {
                     (702) 749-6318
                   </a>
                   <Link
-                    href="/Contact-us"
+                    href="/contact-us"
                     className="flex-1 text-center px-5 py-3 border border-stone-600 hover:border-white text-white font-head font-bold text-sm uppercase tracking-widest rounded transition-all"
                   >
                     Directions →
