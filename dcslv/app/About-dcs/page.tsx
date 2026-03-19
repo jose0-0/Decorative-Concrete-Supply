@@ -275,24 +275,24 @@ const galleryPhotos = [
 ───────────────────────────────────────────── */
 const vendors = [
   {
-    name: "Desert LBM",
-    logo: "https://dcslv.net/wp-content/uploads/2025/06/USLBM_DesertLBM-300x227.webp",
+    name: "Rhino Linings",
+    logo: "/rhino-linings-logo.webp",
   },
   {
     name: "Simpson Strong-Tie",
-    logo: "https://dcslv.net/wp-content/uploads/2025/06/download-1.webp",
+    logo: "/Simpson-strong-tie-logo.webp",
   },
   {
     name: "Euclid Chemical",
-    logo: "https://dcslv.net/wp-content/uploads/2025/06/logo-main-300x231.webp",
+    logo: "/euclid-chemical-logo.webp",
   },
   {
     name: "Boise Cascade",
-    logo: "https://dcslv.net/wp-content/uploads/2025/12/Boise.png",
+    logo: "/Boise-cascade-logo.webp",
   },
   {
     name: "Weyerhaeuser",
-    logo: "https://dcslv.net/wp-content/uploads/2025/12/Weyerhaueser.png",
+    logo: "weyerhaeuser-logo.webp",
   },
   {
     name: "Life Specialty Coatings",
@@ -300,15 +300,15 @@ const vendors = [
   },
   {
     name: "Solomon Colors",
-    logo: "https://dcslv.net/wp-content/uploads/2025/12/Solomon.png",
+    logo: "/solomon-colors-logo.webp",
   },
   {
     name: "Accent",
-    logo: "https://dcslv.net/wp-content/uploads/2025/12/Accent.png",
+    logo: "/accent-building-materials-logo.webp",
   },
   {
     name: "Bon Tools",
-    logo: "https://dcslv.net/wp-content/uploads/2025/06/logo-medium.webp",
+    logo: "/bon-tool-logo.webp",
   },
   {
     name: "Mapei",
@@ -316,11 +316,11 @@ const vendors = [
   },
   {
     name: "Preferred Deck",
-    logo: "https://dcslv.net/wp-content/uploads/2025/06/NewPreDeckLogoTransparent-300x253.png",
+    logo: "/Preferred-Deck-logo.webp",
   },
   {
     name: "PrimeSource",
-    logo: "https://dcslv.net/wp-content/uploads/2025/12/Primesource.jpg",
+    logo: "/Primesource-logo.webp",
   },
   {
     name: "Stegmeier",
@@ -332,7 +332,7 @@ const vendors = [
   },
   {
     name: "Mortex",
-    logo: "https://dcslv.net/wp-content/uploads/2023/11/mortex-300x300.jpg",
+    logo: "/Mortex-logo.webp",
   },
   {
     name: "TCC / Brickform",
@@ -344,7 +344,7 @@ const vendors = [
   },
   {
     name: "Xcel Surfaces",
-    logo: "https://dcslv.net/wp-content/uploads/2023/11/OIP-3-300x141.jpg",
+    logo: "/xcel-surfaces-logo.webp",
   },
 ];
 
