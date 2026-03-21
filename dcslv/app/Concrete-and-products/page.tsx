@@ -262,8 +262,7 @@ const products: Product[] = [
       { label: "Cement Type", value: "Type II/V — ASTM C-150" },
       { label: "Bag Size", value: "60 lbs" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2024/02/paragon-4000psi-213x300.jpg",
+    image: "/IMG_8143.webp",
     imageAlt:
       "Paragon 4000 PSI concrete mix bag — Las Vegas decorative concrete supply",
     dataSheet:
@@ -360,8 +359,7 @@ const products: Product[] = [
       { label: "Dry Time", value: "Fast — same-day seal" },
       { label: "Rinsing", value: "Not required" },
     ],
-    image:
-      "https://dcslv.net/wp-content/uploads/2024/05/acetonedyebottle-300x300.avif",
+    image: "/acetone-dye.webp",
     imageAlt:
       "Concrete Solutions acetone dye bottle — powder dye for decorative concrete coloring",
     dataSheet:

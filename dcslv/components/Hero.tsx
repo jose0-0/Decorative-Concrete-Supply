@@ -76,42 +76,12 @@ const Hero = () => {
         </div>
 
         <div className="hero-pattern relative flex items-center justify-center min-h-64 lg:min-h-0 overflow-hidden">
-          <svg
-            viewBox="0 0 500 400"
-            className="w-4/5 max-w-lg opacity-20"
-            fill="none"
-            stroke="#c8390a"
-            strokeWidth={1.2}
+          <img
+            src="/IMG_0611.webp"
+            alt=""
             aria-hidden="true"
-          >
-            <rect x={40} y={80} width={420} height={280} rx={2} />
-            <line x1={40} y1={200} x2={460} y2={200} />
-            <line x1={250} y1={80} x2={250} y2={360} />
-            <polygon points="250,100 310,160 250,220 190,160" />
-            <polygon points="250,180 310,240 250,300 190,240" />
-            <polygon points="170,140 230,200 170,260 110,200" />
-            <polygon points="330,140 390,200 330,260 270,200" />
-            <rect x={60} y={100} width={40} height={40} strokeDasharray="4 3" />
-            <rect
-              x={400}
-              y={100}
-              width={40}
-              height={40}
-              strokeDasharray="4 3"
-            />
-            <rect x={60} y={300} width={40} height={40} strokeDasharray="4 3" />
-            <rect
-              x={400}
-              y={300}
-              width={40}
-              height={40}
-              strokeDasharray="4 3"
-            />
-            <line x1={40} y1={130} x2={160} y2={130} strokeWidth={0.7} />
-            <line x1={340} y1={130} x2={460} y2={130} strokeWidth={0.7} />
-            <line x1={40} y1={270} x2={160} y2={270} strokeWidth={0.7} />
-            <line x1={340} y1={270} x2={460} y2={270} strokeWidth={0.7} />
-          </svg>
+            className="w-full h-full object-cover"
+          ></img>
           <a href="tel:7027496318">
             <div className="absolute bottom-6 left-6 bg-brand text-white rounded-lg px-5 py-3 shadow-lg">
               <div className="font-head font-bold text-sm uppercase tracking-wide">

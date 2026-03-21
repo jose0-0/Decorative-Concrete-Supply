@@ -165,11 +165,11 @@ const ExpandIcon = ({ className }: { className?: string }) => (
 ───────────────────────────────────────────── */
 const galleryPhotos = [
   {
-    src: "https://dcslv.net/wp-content/uploads/2026/02/IMG_0618-300x225.jpg",
+    src: "/IMG_0618.webp",
     alt: "DCS South Las Vegas new building exterior",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2026/02/IMG_0606-300x225.jpg",
+    src: "/IMG_0611.webp",
     alt: "DCS store interior — concrete supply shelves",
   },
   {
@@ -241,15 +241,15 @@ const galleryPhotos = [
     alt: "DCS product and community photo",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2023/11/soccerteam-300x242.png",
+    src: "/d27d078f-ef9b-4d3b-b790-d081860fed8c.webp",
     alt: "DCS sponsors local Las Vegas soccer team",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image2-1-169x300.webp",
+    src: "/68ee0ce4-46b9-4c7b-9863-ec4a733e5d9a.webp",
     alt: "DCS team event 2025",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image3-1-216x300.webp",
+    src: "/0358310f-4bdd-49df-aee2-6aa17d696715.webp",
     alt: "DCS community photo 2025",
   },
   {
@@ -515,7 +515,7 @@ const Page = () => {
           {/* Background photo — store exterior, desaturated */}
           <div className="absolute inset-0 opacity-15">
             <img
-              src="https://dcslv.net/wp-content/uploads/2026/02/IMG_0618-300x225.jpg"
+              src="/IMG_0618.webp"
               alt=""
               aria-hidden="true"
               className="w-full h-full object-cover"
@@ -636,7 +636,7 @@ const Page = () => {
                   aria-label="View DCS store photo"
                 >
                   <img
-                    src="https://dcslv.net/wp-content/uploads/2026/02/IMG_0606-300x225.jpg"
+                    src="/IMG_0611.webp"
                     alt="DCS Las Vegas store interior — 30 years of concrete supply"
                     className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105 rounded-2xl"
                     loading="eager"
@@ -668,7 +668,7 @@ const Page = () => {
                   aria-label="View DCS warehouse photo"
                 >
                   <img
-                    src="https://dcslv.net/wp-content/uploads/2023/11/andyonforkwif-300x169.jpg"
+                    src="/fd33d5a2-4e70-4cd4-861f-f36a1221aebf.webp"
                     alt="DCS Las Vegas warehouse and inventory operations"
                     className="w-full h-full object-cover"
                     loading="lazy"
