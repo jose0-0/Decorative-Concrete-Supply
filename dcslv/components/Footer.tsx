@@ -82,8 +82,7 @@ const companyLinks: NavLink[] = [
   { label: "About DCS", href: "/about-dcs" },
   {
     label: "Articles",
-    href: "/",
-    external: true,
+    href: "/blog",
   },
   { label: "Contact Us", href: "/contact-us" },
   {
