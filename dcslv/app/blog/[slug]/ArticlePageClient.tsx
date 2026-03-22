@@ -42,6 +42,8 @@ const PRODUCT_LABELS: Record<string, string> = {
   "/concrete-and-products": "Concrete & Products",
   "/concrete-forming-and-supplies": "Rebar & Forming",
   "/hoses-and-sprayers": "Hoses & Sprayers",
+  "/about-dcs": "About DCS",
+  "/contact-us": "Contact Us",
 };
 
 export default function ArticlePageClient({ post }: { post: BlogPost | null }) {
