@@ -253,19 +253,19 @@ const galleryPhotos = [
     alt: "DCS community photo 2025",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image2-225x300.webp",
+    src: "/IMG_4363.webp",
     alt: "DCS Las Vegas community 2025",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image1-2-186x300.webp",
+    src: "/IMG_8179.webp",
     alt: "DCS team member portrait",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image1-1-169x300.webp",
+    src: "/BC289C6B-1931-48DC-8ABA-DE5D8F897382.webp",
     alt: "DCS Las Vegas 2025 crew",
   },
   {
-    src: "https://dcslv.net/wp-content/uploads/2025/06/thumbnail_image1-300x225.webp",
+    src: "/IMG_4223.webp",
     alt: "DCS store team 2025",
   },
 ];

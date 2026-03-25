@@ -7,6 +7,13 @@ import remarkHtml from "remark-html";
 import remarkGfm from "remark-gfm";
 
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
+const INDEX_PATH = path.join(process.cwd(), "content/blog/index.json");
+
+export type IndexEntry = {
+  slug: string;
+  publishDate: string;
+  status: "scheduled" | "published";
+};
 
 export type BlogPost = {
   slug: string;
@@ -32,109 +39,109 @@ function calculateReadTime(content: string): number {
   return Math.ceil(words / 200);
 }
 
-function isPublished(post: BlogPost): boolean {
-  if (post.status !== "published") return false;
-  const publishDate = new Date(post.publishDate);
+function isPublished(entry: IndexEntry): boolean {
+  if (entry.status !== "published") return false;
+  const publishDate = new Date(entry.publishDate);
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   return publishDate <= today;
 }
 
-export function getAllPosts(): BlogPost[] {
-  if (!fs.existsSync(BLOG_DIR)) return [];
+function readIndex(): IndexEntry[] {
+  if (!fs.existsSync(INDEX_PATH)) return [];
+  try {
+    const raw = fs.readFileSync(INDEX_PATH, "utf-8");
+    return JSON.parse(raw) as IndexEntry[];
+  } catch {
+    return [];
+  }
+}
 
-  const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".mdx"));
-
-  const posts = files
-    .map((filename) => {
-      const filePath = path.join(BLOG_DIR, filename);
-      const raw = fs.readFileSync(filePath, "utf-8");
-      const { data, content } = matter(raw);
-
-      return {
-        slug: data.slug || filename.replace(".mdx", ""),
-        title: data.title || "",
-        publishDate: data.publishDate || "",
-        status: data.status || "scheduled",
-        author: data.author || "Jose Argueta",
-        category: data.category || "",
-        excerpt: data.excerpt || "",
-        seoTitle: data.seoTitle || data.title || "",
-        seoDescription: data.seoDescription || data.excerpt || "",
-        keywords: data.keywords || [],
-        featuredImage: data.featuredImage || "",
-        featuredImageAlt: data.featuredImageAlt || "",
-        relatedProducts: data.relatedProducts || [],
-        schema: data.schema || "Article",
-        readTime: calculateReadTime(content),
-      } as BlogPost;
-    })
+function getPublishedEntries(): IndexEntry[] {
+  return readIndex()
     .filter(isPublished)
     .sort(
       (a, b) =>
         new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime(),
     );
+}
 
+function readMdxFile(
+  slug: string,
+): { data: Record<string, unknown>; content: string } | null {
+  const filePath = path.join(BLOG_DIR, `${slug}.mdx`);
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    const raw = fs.readFileSync(filePath, "utf-8");
+    const { data, content } = matter(raw);
+    return { data, content };
+  } catch {
+    return null;
+  }
+}
+
+function buildPost(
+  slug: string,
+  data: Record<string, unknown>,
+  content: string,
+): BlogPost {
+  return {
+    slug,
+    title: (data.title as string) || "",
+    publishDate: (data.publishDate as string) || "",
+    status: (data.status as "scheduled" | "published") || "scheduled",
+    author: (data.author as string) || "Jose Argueta",
+    category: (data.category as string) || "",
+    excerpt: (data.excerpt as string) || "",
+    seoTitle: (data.seoTitle as string) || (data.title as string) || "",
+    seoDescription:
+      (data.seoDescription as string) || (data.excerpt as string) || "",
+    keywords: (data.keywords as string[]) || [],
+    featuredImage: (data.featuredImage as string) || "",
+    featuredImageAlt: (data.featuredImageAlt as string) || "",
+    relatedProducts: (data.relatedProducts as string[]) || [],
+    schema: (data.schema as string) || "Article",
+    readTime: calculateReadTime(content),
+  };
+}
+
+export function getAllPosts(): BlogPost[] {
+  const publishedEntries = getPublishedEntries();
+  const posts: BlogPost[] = [];
+  for (const entry of publishedEntries) {
+    const file = readMdxFile(entry.slug);
+    if (!file) continue;
+    posts.push(buildPost(entry.slug, file.data, file.content));
+  }
   return posts;
 }
 
 export function getAllCategories(): string[] {
   const posts = getAllPosts();
-  const categories = Array.from(new Set(posts.map((p) => p.category))).sort();
-  return categories;
-}
-
-export function getPostsByCategory(category: string): BlogPost[] {
-  return getAllPosts().filter((p) => p.category === category);
+  return Array.from(new Set(posts.map((p) => p.category))).sort();
 }
 
 export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
-  if (!fs.existsSync(BLOG_DIR)) return null;
+  const index = readIndex();
+  const entry = index.find((e) => e.slug === slug);
+  if (!entry || !isPublished(entry)) return null;
 
-  const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".mdx"));
+  const file = readMdxFile(slug);
+  if (!file) return null;
 
-  for (const filename of files) {
-    const filePath = path.join(BLOG_DIR, filename);
-    const raw = fs.readFileSync(filePath, "utf-8");
-    const { data, content } = matter(raw);
+  const processed = await remark()
+    .use(remarkGfm)
+    .use(remarkHtml, { sanitize: false })
+    .process(file.content);
 
-    const postSlug = data.slug || filename.replace(".mdx", "");
-    if (postSlug !== slug) continue;
-
-    const processed = await remark()
-      .use(remarkGfm)
-      .use(remarkHtml, { sanitize: false })
-      .process(content);
-
-    return {
-      slug: postSlug,
-      title: data.title || "",
-      publishDate: data.publishDate || "",
-      status: data.status || "scheduled",
-      author: data.author || "Jose Argueta",
-      category: data.category || "",
-      excerpt: data.excerpt || "",
-      seoTitle: data.seoTitle || data.title || "",
-      seoDescription: data.seoDescription || data.excerpt || "",
-      keywords: data.keywords || [],
-      featuredImage: data.featuredImage || "",
-      featuredImageAlt: data.featuredImageAlt || "",
-      relatedProducts: data.relatedProducts || [],
-      schema: data.schema || "Article",
-      readTime: calculateReadTime(content),
-      content: processed.toString(),
-    } as BlogPost;
-  }
-
-  return null;
+  return {
+    ...buildPost(slug, file.data, file.content),
+    content: processed.toString(),
+  };
 }
 
 export function getAllSlugs(): string[] {
-  if (!fs.existsSync(BLOG_DIR)) return [];
-  return fs
-    .readdirSync(BLOG_DIR)
-    .filter((f) => f.endsWith(".mdx"))
-    .map((f) => f.replace(".mdx", ""));
+  return readIndex().map((e) => e.slug);
 }
 
 export function getPaginatedPosts(
@@ -145,7 +152,13 @@ export function getPaginatedPosts(
   const totalPages = Math.ceil(posts.length / perPage);
   const currentPage = Math.max(1, Math.min(page, totalPages));
   const start = (currentPage - 1) * perPage;
-  const paginated = posts.slice(start, start + perPage);
+  return {
+    posts: posts.slice(start, start + perPage),
+    totalPages,
+    currentPage,
+  };
+}
 
-  return { posts: paginated, totalPages, currentPage };
+export function getIndex(): IndexEntry[] {
+  return readIndex();
 }
