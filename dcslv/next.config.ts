@@ -4,7 +4,6 @@ const nextConfig = {
   async redirects() {
     return [
       // ─── TOP-LEVEL CATEGORY PAGES ──────────────────────────────────────────
-
       {
         source: "/epoxy-products-in-las-vegas-nevada",
         destination: "/epoxy-products",

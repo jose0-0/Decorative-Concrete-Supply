@@ -209,6 +209,7 @@ const products: Product[] = [
       "https://www.euclidchemical.com/fileshare/ProductFiles/TDS/EverClear.pdf",
     icon: <DropletIcon className="w-6 h-6 text-brand" />,
   },
+
   {
     id: "baracade-wb-244",
     brand: "Euclid Chemical",
@@ -334,6 +335,24 @@ const products: Product[] = [
     ],
     dataSheetHref:
       "https://skl.291.myftpupload.com/wp-content/uploads/2023/11/Rhino-Seal-Polyaspartic.pdf",
+    icon: <ZapIcon className="w-6 h-6 text-brand" />,
+  },
+  {
+    id: "flowseal-pa2",
+    brand: "FlowResin / Key Resin Company",
+    name: "Flowseal PA-2 Polyaspartic",
+    tagline: "Two-Component UV Stable Polyaspartic Sealer — Extended Pot Life",
+    description:
+      "Flowseal PA-2 is a two-component, fast-curing, UV stable, chemical resistant, high-gloss polyaspartic sealer and receiving coat manufactured by Key Resin Company. Designed for use over Flowfresh broadcast systems, epoxy-based broadcast systems, decorative color flake, and color quartz systems. PA-2 stands out from standard polyaspartics with its extended working time — critical for larger pours and Las Vegas applications where ambient heat compresses your window. Ships as a 4-gallon A+B kit at a 1:1 mix ratio. Not designed for use over smooth coatings.",
+    highlights: [
+      "Two-component polyaspartic — UV stable, non-yellowing",
+      "Extended pot life vs. standard polyaspartics — 20–25 min at 70°F",
+      "High gloss finish — 90+ gloss units (ASTM D523 @ 60°)",
+      "80% solids content — thick, protective film build",
+      "VOC <50 g/L — low odor, nonylphenol free",
+    ],
+    badge: "Extended Pot Life",
+    dataSheetHref: "/KeyResin-PA-2-Polyaspartic.pdf",
     icon: <ZapIcon className="w-6 h-6 text-brand" />,
   },
   {

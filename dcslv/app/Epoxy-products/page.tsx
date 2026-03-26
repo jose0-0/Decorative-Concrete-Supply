@@ -92,6 +92,159 @@ const products: Product[] = [
     ),
   },
   {
+    id: "key-510-epoxy",
+    name: "Key Resin #510 Epoxy",
+    tagline: "100% Solids Multi-Purpose Epoxy Body Coat, Binder & Topcoat",
+    description:
+      "KEY #510 is a 100% solids, zero VOC, multi-purpose epoxy body coat, binder, and topcoat for a wide variety of Key Resin flooring systems. Characterized by excellent general purpose performance, good chemical resistance, clarity, and color retention.",
+    highlights: [
+      "100% solids — 0 g/L VOC, compliant in all 50 states",
+      "Excellent clarity and color retention",
+      "Low viscosity 550–700 cps — good troweling and wetting",
+      "Shore D hardness 80 · tensile strength 8,500 psi",
+      "Flexural strength 8,000 psi · compressive strength 11,000 psi",
+    ],
+    badge: undefined,
+    dataSheetHref: "/KeyResin-510-epoxy.pdf",
+    colorChartHref: "/KeyresinCOLOR.CARD.pdf",
+    icon: (
+      <svg
+        className="w-6 h-6 text-brand"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.8}
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      </svg>
+    ),
+  },
+  {
+    id: "key-511-uv-epoxy",
+    name: "Key Resin #511-UV Epoxy",
+    tagline:
+      "100% Solids UV-Resistant Clear Epoxy — Primer, Binder, Broadcast & Coating",
+    badge: "UV Resistant",
+    description:
+      "KEY #511-UV is a clear, UV light resistant, 100% solids epoxy resin for use as a primer, slurry binder, trowel mortar binder, broadcast system binder, and coating. Engineered for greater resistance to indoor UV light ambering compared to standard epoxy formulations.",
+    highlights: [
+      "UV light resistant — greater resistance to indoor ambering vs. standard epoxy",
+      "100% solids — <50 g/L VOC, compliant in all 50 states",
+      "Shore D hardness 70–80 · tensile strength 8,500 psi",
+      "Flexural strength 8,700 psi · compressive strength 11,000 psi",
+      "Abrasion resistance 70–75 mg loss per 1,000 cycles (ASTM C501)",
+    ],
+    dataSheetHref: "/KeyResin-511-uv-epoxy.pdf",
+    icon: (
+      <svg
+        className="w-6 h-6 text-brand"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.8}
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <circle cx={12} cy={12} r={5} />
+        <line x1={12} y1={1} x2={12} y2={3} />
+        <line x1={12} y1={21} x2={12} y2={23} />
+        <line x1={4.22} y1={4.22} x2={5.64} y2={5.64} />
+        <line x1={18.36} y1={18.36} x2={19.78} y2={19.78} />
+        <line x1={1} y1={12} x2={3} y2={12} />
+        <line x1={21} y1={12} x2={23} y2={12} />
+        <line x1={4.22} y1={19.78} x2={5.64} y2={18.36} />
+        <line x1={18.36} y1={5.64} x2={19.78} y2={4.22} />
+      </svg>
+    ),
+  },
+  {
+    id: "key-520-epoxy",
+    name: "Key Resin #520 Epoxy Coating",
+    tagline:
+      "100% Solids Pigmented Epoxy Floor Coating — High Gloss, Chemical Resistant",
+    description:
+      "KEY #520 is a 100% solids, pigmented epoxy floor coating designed for high gloss, chemical resistant protection wherever a high-build, corrosion resistant floor coating is required. Essentially odorless — safe for use in occupied areas. ",
+    highlights: [
+      "100% solids — 0 g/L VOC, compliant in all 50 states",
+      "High gloss finish — 100–110 gloss units at 60°",
+      "160 sq ft/gal coverage at 10 mil film thickness",
+      "Chemical resistant — rated for diesel, gasoline, ethylene glycol, sodium hydroxide, sulfuric acid & more",
+      "Meets USGBC LEED low VOC criteria",
+    ],
+    badge: undefined,
+    dataSheetHref: "/KeyResin-520-Epoxy.pdf",
+    colorChartHref: "/KeyresinCOLOR.CARD.pdf",
+    icon: (
+      <svg
+        className="w-6 h-6 text-brand"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.8}
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      </svg>
+    ),
+  },
+  {
+    id: "key-515-epoxy",
+    name: "Key Resin #515 Epoxy Body Coat",
+    tagline: "100% Solids General Purpose Epoxy — Body Coat, Binder & Topcoat",
+    description:
+      "KEY #515 is a 100% solids, amine-cured, general purpose epoxy suitable as a body coat, binder, or topcoat. Designed for a wide variety of applications, #515 provides an economical resin with increased barrier thickness and added protection against chemical and abrasive attack. ",
+    highlights: [
+      "100% solids — 0 g/L VOC, compliant in all 50 states",
+      "Denser and harder than concrete — 12,000 psi compressive strength",
+      "Shore D hardness 75 · tensile strength 2,300 psi · flexural strength 5,000 psi",
+      "Abrasion resistance — 65 mg loss after 1,000 cycles (ASTM D4060)",
+      "Low viscosity — good wetting and substrate penetration",
+    ],
+    badge: undefined,
+    dataSheetHref: "https://www.keyresin.com",
+    colorChartHref: "https://www.keyresin.com",
+    icon: (
+      <svg
+        className="w-6 h-6 text-brand"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.8}
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+      </svg>
+    ),
+  },
+  {
+    id: "key-635-mvt-plus",
+    name: "Key Resin #635-MVT Plus+",
+    tagline: "Two-Component Modified Epoxy Moisture Vapor Treatment Primer",
+    badge: "MVT Primer",
+    description:
+      "KEY #635-MVT Plus+ is a two-component, modified epoxy primer formulated specifically as a moisture vapor treatment (MVT) to seal concrete floor slabs and prevent moisture-related floor covering and coating failures.",
+    highlights: [
+      "Handles up to 25 lbs MVER (Calcium Chloride Test ASTM F1869)",
+      "Handles up to 100% RH (RH Probe Test ASTM F2170)",
+      "Exceeds ASTM F3010 moisture mitigation requirements",
+      "Alkaline resistant — withstands sustained pH up to 14",
+      "Shore D hardness 88 · compressive strength 14,434 psi",
+    ],
+    dataSheetHref: "/KeyResin-635-mvt.pdf",
+    icon: (
+      <svg
+        className="w-6 h-6 text-brand"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.8}
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+      </svg>
+    ),
+  },
+  {
     id: "epoxy-flakes",
     name: "Epoxy Flakes",
     tagline: "Decorative Broadcast Chips",
