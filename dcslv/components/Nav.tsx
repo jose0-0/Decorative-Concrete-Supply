@@ -81,13 +81,17 @@ const Nav = () => {
       >
         <div className="mx-auto px-6 h-16 flex items-center justify-between gap-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 shrink-0">
-            <div className="w-9 h-9 bg-brand rounded flex items-center justify-center text-white font-head font-black text-sm tracking-tight">
+          <Link href="/" className="flex items-center shrink-0">
+            {/* Desktop only — full logo image */}
+            <img
+              src="/dcslv-logo.webp"
+              alt="Decorative Concrete Supply"
+              className="hidden lg:block h-13 w-auto object-contain"
+            />
+            {/* Mobile & tablet — DCS text badge */}
+            <div className="flex lg:hidden w-9 h-9 bg-brand rounded items-center justify-center text-white font-head font-black text-sm tracking-tight">
               DCS
             </div>
-            <span className="hidden xl:inline font-head font-black text-lg uppercase tracking-wide text-stone-900 leading-none">
-              Decorative Concrete <span className="text-brand">Supply</span>
-            </span>
           </Link>
 
           {/* Desktop links */}

@@ -254,7 +254,7 @@ const Page = () => {
                 name: "Decorative Concrete Supply — South Las Vegas",
                 url: "/contact-us/",
                 telephone: "+17027496318",
-                image: "/dcslv-full-logo.webp",
+                image: "/dcslv-logo.webp",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "4125 Wagon Trail Ave",
@@ -298,7 +298,7 @@ const Page = () => {
                 name: "Decorative Concrete Supply — North Las Vegas",
                 url: "/contact-us",
                 telephone: "+17027496318",
-                image: "/dcslv-full-logo.webp",
+                image: "/dcslv-logo.webp",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "4601 E Cheyenne Ave Ste 107",
