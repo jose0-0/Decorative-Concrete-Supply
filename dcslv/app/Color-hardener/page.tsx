@@ -677,7 +677,10 @@ export default function ColorHardenerPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* ── COLOR HARDENER CARD ── */}
-            <article className="reveal bg-white border border-stone-200 rounded-2xl overflow-hidden card-hover flex flex-col">
+            <article
+              id="color-hardener"
+              className="reveal bg-white border border-stone-200 rounded-2xl overflow-hidden card-hover flex flex-col"
+            >
               <div className="h-1.5 bg-amber-400" />
 
               {/* Product photo */}
@@ -805,7 +808,10 @@ export default function ColorHardenerPage() {
             </article>
 
             {/* ── ANTIQUE RELEASE CARD ── */}
-            <article className="reveal delay-1 bg-white border border-stone-200 rounded-2xl overflow-hidden card-hover flex flex-col">
+            <article
+              id="antique-release"
+              className="reveal delay-1 bg-white border border-stone-200 rounded-2xl overflow-hidden card-hover flex flex-col"
+            >
               <div className="h-1.5 bg-stone-700" />
 
               {/* Product photo */}

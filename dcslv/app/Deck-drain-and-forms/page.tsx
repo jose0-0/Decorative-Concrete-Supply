@@ -183,7 +183,7 @@ const ZoomIcon = ({ className }: { className?: string }) => (
 ───────────────────────────────────────────── */
 const products: Product[] = [
   {
-    id: "mortex-deck-drain",
+    id: "mortex-stegmeier",
     name: "Deck Drain System",
     brand: "Mortex / Stegmeier",
     category: "Deck Drain",

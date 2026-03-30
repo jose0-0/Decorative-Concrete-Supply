@@ -71,6 +71,9 @@
   /* Font imports — move to <head> in layout.tsx if preferred */
   @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@300;400;500;600&display=swap");
 }
+[id] {
+  scroll-margin-top: 80px;
+}
 
 /* ------------------------------------------------------------
    COMPONENTS

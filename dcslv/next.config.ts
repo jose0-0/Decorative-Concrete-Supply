@@ -1,6 +1,31 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  // ─── SECURITY HEADERS ───────────────────────────────────────────────────────
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: [
+          // Prevents browsers from MIME-sniffing a response away from the declared content-type.
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          // Prevents your site from being embedded in an <iframe> (clickjacking protection).
+          { key: "X-Frame-Options", value: "DENY" },
+          // Controls how much referrer info is passed when navigating away from your site.
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          // Tells legacy browsers to block pages if a reflected XSS attack is detected.
+          { key: "X-XSS-Protection", value: "1; mode=block" },
+          // Restricts which browser features/APIs can be used on your site.
+          {
+            key: "Permissions-Policy",
+            value: "camera=(), microphone=(), geolocation=()",
+          },
+        ],
+      },
+    ];
+  },
+
+  // ─── REDIRECTS ──────────────────────────────────────────────────────────────
   async redirects() {
     return [
       // ─── TOP-LEVEL CATEGORY PAGES ──────────────────────────────────────────
@@ -10,7 +35,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        // Also handle with trailing slash (WordPress always had trailing slashes)
         source: "/epoxy-products-in-las-vegas-nevada/",
         destination: "/epoxy-products",
         permanent: true,
@@ -101,27 +125,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/hand-tools",
-        destination: "/tools",
-        permanent: true,
-      },
-      {
-        source: "/hand-tools/",
-        destination: "/tools",
-        permanent: true,
-      },
-      {
-        // Edge case: old slug was just /hand/
-        source: "/hand",
-        destination: "/tools",
-        permanent: true,
-      },
-      {
-        source: "/hand/",
-        destination: "/tools",
-        permanent: true,
-      },
-      {
         source: "/hoses-and-sprayers/",
         destination: "/hoses-and-sprayers",
         permanent: true,
@@ -157,8 +160,7 @@ const nextConfig = {
         permanent: true,
       },
 
-      // ─── SEALER PRODUCT PAGES (all consolidate → /sealer) ──────────────────
-
+      // ─── SEALER PRODUCT PAGES ──────────────────────────────────────────────
       { source: "/246-polyurethane", destination: "/sealer", permanent: true },
       { source: "/246-polyurethane/", destination: "/sealer", permanent: true },
       {
@@ -232,8 +234,7 @@ const nextConfig = {
       { source: "/lythic-cleaner", destination: "/sealer", permanent: true },
       { source: "/lythic-cleaner/", destination: "/sealer", permanent: true },
 
-      // ─── EPOXY PRODUCT PAGES (all consolidate → /epoxy-products) ───────────
-
+      // ─── EPOXY PRODUCT PAGES ───────────────────────────────────────────────
       {
         source: "/water-based-epoxy",
         destination: "/epoxy-products",
@@ -287,8 +288,7 @@ const nextConfig = {
         permanent: true,
       },
 
-      // ─── STAIN PRODUCT PAGES (all consolidate → /stains) ───────────────────
-
+      // ─── STAIN PRODUCT PAGES ───────────────────────────────────────────────
       {
         source: "/life-deck-water-based-stain",
         destination: "/stains",
@@ -310,8 +310,7 @@ const nextConfig = {
         permanent: true,
       },
 
-      // ─── OVERLAY PRODUCT PAGES (all consolidate → /overlay) ────────────────
-
+      // ─── OVERLAY PRODUCT PAGES ─────────────────────────────────────────────
       {
         source: "/quickpatch-mapecem",
         destination: "/overlay",
@@ -401,8 +400,7 @@ const nextConfig = {
       { source: "/sika-flex-1a", destination: "/overlay", permanent: true },
       { source: "/sika-flex-1a/", destination: "/overlay", permanent: true },
 
-      // ─── WATERPROOFING PRODUCT PAGES (all consolidate → /water-proofing-systems) ─
-
+      // ─── WATERPROOFING PRODUCT PAGES ───────────────────────────────────────
       {
         source: "/fm-waterproof-system",
         destination: "/water-proofing-systems",
@@ -494,18 +492,7 @@ const nextConfig = {
         permanent: true,
       },
 
-      // ─── TOOLS PAGES ────────────────────────────────────────────────────────
-
-      {
-        source: "/dewalt-power-tools",
-        destination: "/dewalt-power-tools",
-        permanent: true,
-      },
-      {
-        source: "/dewalt-power-tools/",
-        destination: "/dewalt-power-tools",
-        permanent: true,
-      },
+      // ─── TOOLS PAGES ───────────────────────────────────────────────────────
       {
         source: "/makita-tools-and-accessories",
         destination: "/makita-tools",
