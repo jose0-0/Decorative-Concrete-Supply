@@ -17,8 +17,14 @@ jobs:
           username: root
           key: ${{ secrets.DROPLET_SSH_KEY }}
           script: |
-            cd /root/dcslv
+            cd /root/dcslv/dcslv
             git pull origin main
-            npm install
-            npm run build
-            docker restart dcslv-app
+            docker stop dcslv-app
+            docker rm dcslv-app
+            docker build -t dcslv-app .
+            docker run -d \
+              --name dcslv-app \
+              --network web \
+              --restart always \
+              -p 3000:3000 \
+              dcslv-app
