@@ -470,11 +470,24 @@ const page = () => {
               name: "Machine Rentals",
               itemListElement: rentals.map((r) => ({
                 "@type": "Offer",
-                "availability": "https://schema.org/InStore",
+                availability: "https://schema.org/InStoreOnly",
                 itemOffered: {
                   "@type": "Product",
                   name: r.name,
                   description: r.tagline,
+                  offers: {
+                    "@type": "Offer",
+                    availability: "https://schema.org/InStoreOnly",
+                    priceSpecification: {
+                      "@type": "PriceSpecification",
+                      price: 0,
+                      priceCurrency: "USD",
+                    },
+                    seller: {
+                      "@type": "Organization",
+                      name: "Decorative Concrete Supply",
+                    },
+                  },
                 },
               })),
             },

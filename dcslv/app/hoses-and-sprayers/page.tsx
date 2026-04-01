@@ -752,12 +752,25 @@ const Page = () => {
               name: "Sprayers and Attachments",
               itemListElement: products.map((p) => ({
                 "@type": "Offer",
-                "availability": "https://schema.org/InStore",
+                availability: "https://schema.org/InStoreOnly",
                 itemOffered: {
                   "@type": "Product",
                   name: p.name,
                   brand: { "@type": "Brand", name: p.brand },
                   description: p.tagline,
+                  offers: {
+                    "@type": "Offer",
+                    availability: "https://schema.org/InStoreOnly",
+                    priceSpecification: {
+                      "@type": "PriceSpecification",
+                      price: 0,
+                      priceCurrency: "USD",
+                    },
+                    seller: {
+                      "@type": "Organization",
+                      name: "Decorative Concrete Supply",
+                    },
+                  },
                 },
               })),
             },

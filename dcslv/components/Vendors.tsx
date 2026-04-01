@@ -18,7 +18,6 @@ const vendors: string[] = [
   "PrimeSource",
   "Boise Cascade",
   "Weyerhaeuser",
-  "Desert LBM",
 ];
 
 const Vendors = () => {

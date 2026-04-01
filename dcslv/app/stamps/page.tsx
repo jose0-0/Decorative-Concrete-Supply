@@ -667,6 +667,7 @@ export default function StampRentalsPage() {
               name: "Concrete Stamp Rentals",
               itemListElement: stamps.map((s) => ({
                 "@type": "Offer",
+                availability: "https://schema.org/InStoreOnly",
                 itemOffered: {
                   "@type": "Service",
                   name: `${s.name} Stamp Rental`,

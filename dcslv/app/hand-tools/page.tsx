@@ -445,13 +445,26 @@ const page = () => {
               name: "Concrete Edgers",
               itemListElement: products.map((p) => ({
                 "@type": "Offer",
-                "availability": "https://schema.org/InStore",
+                availability: "https://schema.org/InStoreOnly",
                 itemOffered: {
                   "@type": "Product",
                   name: p.name,
                   description: p.tagline,
                   brand: { "@type": "Brand", name: "Marshalltown" },
                   countryOfOrigin: "US",
+                  offers: {
+                    "@type": "Offer",
+                    availability: "https://schema.org/InStoreOnly",
+                    priceSpecification: {
+                      "@type": "PriceSpecification",
+                      price: 0,
+                      priceCurrency: "USD",
+                    },
+                    seller: {
+                      "@type": "Organization",
+                      name: "Decorative Concrete Supply",
+                    },
+                  },
                 },
               })),
             },

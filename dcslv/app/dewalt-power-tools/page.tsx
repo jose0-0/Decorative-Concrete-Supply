@@ -588,13 +588,26 @@ const page = () => {
               name: "DeWalt Power Tools",
               itemListElement: products.map((p) => ({
                 "@type": "Offer",
-                "availability": "https://schema.org/InStore",
+                availability: "https://schema.org/InStoreOnly",
                 itemOffered: {
                   "@type": "Product",
                   name: `DeWalt ${p.model} ${p.name}`,
                   description: p.tagline,
                   brand: { "@type": "Brand", name: "DeWalt" },
                   model: p.model,
+                  offers: {
+                    "@type": "Offer",
+                    availability: "https://schema.org/InStoreOnly",
+                    priceSpecification: {
+                      "@type": "PriceSpecification",
+                      price: 0,
+                      priceCurrency: "USD",
+                    },
+                    seller: {
+                      "@type": "Organization",
+                      name: "Decorative Concrete Supply",
+                    },
+                  },
                 },
               })),
             },

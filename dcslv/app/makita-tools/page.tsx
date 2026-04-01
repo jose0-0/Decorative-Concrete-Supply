@@ -1074,6 +1074,36 @@ const page = () => {
                 closes: "08:30",
               },
             ],
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Makita Power Tools",
+              itemListElement: categories.flatMap((cat) =>
+                cat.products.map((p) => ({
+                  "@type": "Offer",
+                  availability: "https://schema.org/InStoreOnly",
+                  itemOffered: {
+                    "@type": "Product",
+                    name: `Makita ${p.model} ${p.name}`,
+                    description: p.tagline,
+                    brand: { "@type": "Brand", name: "Makita" },
+                    model: p.model,
+                    offers: {
+                      "@type": "Offer",
+                      availability: "https://schema.org/InStoreOnly",
+                      priceSpecification: {
+                        "@type": "PriceSpecification",
+                        price: 0,
+                        priceCurrency: "USD",
+                      },
+                      seller: {
+                        "@type": "Organization",
+                        name: "Decorative Concrete Supply",
+                      },
+                    },
+                  },
+                })),
+              ),
+            },
           }),
         }}
       />

@@ -459,7 +459,7 @@ export default function ColorHardenerPage() {
             name: "Decorative Concrete Supply",
             description:
               "Brickform Color Hardener and Antique Release in Las Vegas.",
-            url: "/Clor-hardener/",
+            url: "/color-hardener/",
             telephone: "+17027496318",
             address: {
               "@type": "PostalAddress",
@@ -495,20 +495,46 @@ export default function ColorHardenerPage() {
               itemListElement: [
                 {
                   "@type": "Offer",
-                "availability": "https://schema.org/InStore",
+                  availability: "https://schema.org/InStoreOnly",
                   itemOffered: {
                     "@type": "Product",
                     name: "Brickform Color Hardener",
                     brand: { "@type": "Brand", name: "Brickform" },
+                    offers: {
+                      "@type": "Offer",
+                      availability: "https://schema.org/InStoreOnly",
+                      priceSpecification: {
+                        "@type": "PriceSpecification",
+                        price: 0,
+                        priceCurrency: "USD",
+                      },
+                      seller: {
+                        "@type": "Organization",
+                        name: "Decorative Concrete Supply",
+                      },
+                    },
                   },
                 },
                 {
                   "@type": "Offer",
-                "availability": "https://schema.org/InStore",
+                  availability: "https://schema.org/InStoreOnly",
                   itemOffered: {
                     "@type": "Product",
                     name: "Brickform Antique Release",
                     brand: { "@type": "Brand", name: "Brickform" },
+                    offers: {
+                      "@type": "Offer",
+                      availability: "https://schema.org/InStoreOnly",
+                      priceSpecification: {
+                        "@type": "PriceSpecification",
+                        price: 0,
+                        priceCurrency: "USD",
+                      },
+                      seller: {
+                        "@type": "Organization",
+                        name: "Decorative Concrete Supply",
+                      },
+                    },
                   },
                 },
               ],

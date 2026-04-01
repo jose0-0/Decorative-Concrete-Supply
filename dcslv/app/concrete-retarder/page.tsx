@@ -479,13 +479,26 @@ const Page = () => {
               itemListElement: [
                 {
                   "@type": "Offer",
-                "availability": "https://schema.org/InStore",
+                  availability: "https://schema.org/InStoreOnly",
                   itemOffered: {
                     "@type": "Product",
                     name: "Brickform Select-Etch Concrete Surface Retarder",
                     brand: { "@type": "Brand", name: "Brickform" },
                     description:
                       "Topically-applied concrete surface retarder with 12 color-coded exposure depths for consistent exposed aggregate finishes.",
+                    offers: {
+                      "@type": "Offer",
+                      availability: "https://schema.org/InStoreOnly",
+                      priceSpecification: {
+                        "@type": "PriceSpecification",
+                        price: 0,
+                        priceCurrency: "USD",
+                      },
+                      seller: {
+                        "@type": "Organization",
+                        name: "Decorative Concrete Supply",
+                      },
+                    },
                   },
                 },
               ],

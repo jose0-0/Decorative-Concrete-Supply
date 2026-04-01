@@ -539,7 +539,7 @@ const page = () => {
               name: "Waterproofing Systems",
               itemListElement: systems.map((s) => ({
                 "@type": "Offer",
-                "availability": "https://schema.org/InStore",
+                availability: "https://schema.org/InStoreOnly",
                 itemOffered: {
                   "@type": "Product",
                   name: s.name,
@@ -547,6 +547,19 @@ const page = () => {
                   brand: {
                     "@type": "Brand",
                     name: "Life Deck Specialty Coatings",
+                  },
+                  offers: {
+                    "@type": "Offer",
+                    availability: "https://schema.org/InStoreOnly",
+                    priceSpecification: {
+                      "@type": "PriceSpecification",
+                      price: 0,
+                      priceCurrency: "USD",
+                    },
+                    seller: {
+                      "@type": "Organization",
+                      name: "Decorative Concrete Supply",
+                    },
                   },
                 },
               })),
