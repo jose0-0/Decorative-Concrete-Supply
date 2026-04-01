@@ -547,7 +547,11 @@ export default function EpoxyProductsPage() {
                   description: p.tagline,
                   offers: {
                     "@type": "Offer",
-                    availability: "https://schema.org/InStore",
+                    availability: "https://schema.org/InStoreOnly",
+                    priceSpecification: {
+                      "@type": "PriceSpecification",
+                      priceCurrency: "USD",
+                    },
                     seller: {
                       "@type": "Organization",
                       name: "Decorative Concrete Supply",
