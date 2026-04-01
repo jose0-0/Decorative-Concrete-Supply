@@ -800,15 +800,18 @@ const products: Product[] = [
   },
   {
     kind: "product",
-    title: "246 Polyurethane",
-    description: "Solvent-based polyurethane sealer for concrete and masonry.",
-    href: "/sealer/#246-polyurethane",
+    title: "BDC 9525 CRU",
+    description:
+      "Two-component solvent-based chemical resistant urethane topcoat for concrete floors.",
+    href: "/sealer/#bdc-9525-cru",
     pageName: "Sealer",
     keywords: [
-      "246",
-      "246 polyurethane",
+      "9525",
+      "BDC 9525",
+      "chemical resistant urethane",
       "polyurethane sealer",
-      "solvent poly",
+      "solvent urethane",
+      "CRU",
     ],
   },
   {

@@ -85,6 +85,7 @@ const companyLinks: NavLink[] = [
     href: "/blog",
   },
   { label: "Contact Us", href: "/contact-us" },
+  { label: "Credit Application", href: "/CREDIT-APP.pdf", external: true },
   {
     label: "Google Reviews",
     href: "https://www.google.com/search?q=decorative+concrete+supply+las+vegas",

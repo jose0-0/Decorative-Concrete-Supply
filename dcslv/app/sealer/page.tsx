@@ -8,7 +8,7 @@ import { ReactNode } from "react";
 export const metadata: Metadata = {
   title: "Concrete Sealers in Las Vegas, NV | Decorative Concrete Supply",
   description:
-    "Shop concrete sealers in Las Vegas — acrylic, polyurethane, polyaspartic, penetrating siloxane, densifiers & solvents. Big Boss, EverClear, 246 Polyurethane, 545 Polyaspartic, Lythic, Life Deck GPD & more. Same-day pickup at 2 locations. Call (702) 749-6318.",
+    "Shop concrete sealers in Las Vegas — acrylic, polyurethane, polyaspartic, penetrating siloxane, densifiers & solvents. Big Boss, EverClear, BDC 9525 CRU, 545 Polyaspartic, Lythic, Life Deck GPD & more. Same-day pickup at 2 locations. Call (702) 749-6318.",
   keywords: [
     "concrete sealer Las Vegas",
     "stamped concrete sealer Las Vegas",
@@ -172,23 +172,21 @@ const products: Product[] = [
     icon: <SunIcon className="w-6 h-6 text-brand" />,
   },
   {
-    id: "246-polyurethane",
-    brand: "TCC",
-    name: "246 Polyurethane",
-    tagline: "Two-Component Aliphatic Urethane",
+    id: "bdc-9525-cru",
+    brand: "BDC Epoxy Systems",
+    name: "BDC 9525 CRU",
+    tagline: "250-VOC Solvent-Based Chemical Resistant Urethane",
     description:
-      "High-solid, chemical-resistant two-component aliphatic urethane with a gloss finish. Non-yellowing formula for exterior and interior pre-primed concrete. Built for aircraft hangars, auto shops, service stations, factory and garage floors.",
+      "A two-component, high-solids, solvent-based aliphatic polyester polyurethane topcoat. UV resistant, mar resistant, and chemical resistant — outperforms most sealers in moderate to strong chemical environments. Clark County VOC compliant (VOC < 250 g/L). Available in clear gloss, pigmented gloss, and satin finishes.",
     highlights: [
-      "High chemical resistance",
-      "Non-yellowing aliphatic formula",
-      "Interior & exterior rated",
-      "High-traffic commercial & industrial",
-      "Gloss finish with color chart available",
+      "Clark County & CARB VOC compliant — VOC < 250 g/L",
+      "Excellent chemical & abrasion resistance",
+      "UV resistant — non-yellowing aliphatic formula",
+      "1:2 mix ratio — 300–350 sq ft per gallon as coating",
+      "High gloss or satin finish options",
+      "Walk on 18 hours · Drive on 72 hours",
     ],
-    dataSheetHref:
-      "https://skl.291.myftpupload.com/wp-content/uploads/2023/11/TopPoly_246.pdf",
-    colorChartHref: "TCC-246-color-sheet.webp",
-
+    dataSheetHref: "/BDC_9525_CRU_Tech_Data_Sheet.pdf",
     icon: <ShieldIcon className="w-6 h-6 text-brand" />,
   },
   {
@@ -471,7 +469,7 @@ const faqs: FaqItem[] = [
   {
     question: "What concrete sealers do you carry in Las Vegas?",
     answer:
-      "We stock a full line including Big Boss High Gloss (solvent acrylic), EverClear (pure acrylic cure & seal), Arizona Seal (wet-look acrylic), Diamond Clear VOX (VOC compliant acrylic), Baracade WB 244 (penetrating siloxane), 246 Polyurethane, 545 Polyaspartic, RhinoSeal PA (RF300 polyaspartic), Life Deck 4001 Gloss, Life Deck GPD, Lythic Densifier, Lythic Protector, Lythic Cleaner, and BDC 70-30. Plus acetone, xylene, and denatured alcohol in 1 and 5 gallon sizes.",
+      "We stock a full line including Big Boss High Gloss (solvent acrylic), EverClear (pure acrylic cure & seal), Arizona Seal (wet-look acrylic), Diamond Clear VOX (VOC compliant acrylic), Baracade WB 244 (penetrating siloxane), BDC 9525 CRU, 545 Polyaspartic, RhinoSeal PA (RF300 polyaspartic), Life Deck 4001 Gloss, Life Deck GPD, Lythic Densifier, Lythic Protector, Lythic Cleaner, and BDC 70-30. Plus acetone, xylene, and denatured alcohol in 1 and 5 gallon sizes.",
   },
   {
     question: "What's the best sealer for stamped concrete in Las Vegas?",
@@ -480,9 +478,9 @@ const faqs: FaqItem[] = [
   },
   {
     question:
-      "What's the difference between acrylic, polyurethane, and polyaspartic sealers?",
+      "What's the difference between acrylic, urethane, and polyaspartic sealers?",
     answer:
-      "Acrylic sealers (like EverClear and Big Boss) are the most economical — easy to apply, recoatable, and good for most residential applications. Polyurethane (246) is a step up in chemical resistance, abrasion resistance, and durability — ideal for garage floors and commercial surfaces. Polyaspartic (545 and RhinoSeal PA) is the premium choice — fast-cure, UV stable, and the toughest of the three. Polyaspartic is what we recommend for garage floors and any outdoor surface that sees direct UV exposure.",
+      "Acrylic sealers (like EverClear and Big Boss) are the most economical — easy to apply, recoatable, and good for most residential applications. BDC 9525 CRU is a step up in chemical resistance, abrasion resistance, and durability — a two-component solvent-based urethane ideal for garage floors, commercial surfaces, and anywhere strong chemical resistance is required. Polyaspartic (545 and RhinoSeal PA) is the premium choice — fast-cure, UV stable, and the toughest of the three. Polyaspartic is what we recommend for garage floors and any outdoor surface that sees direct UV exposure.",
   },
   {
     question: "Does Las Vegas heat affect how I apply sealer?",
