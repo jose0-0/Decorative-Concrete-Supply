@@ -540,11 +540,19 @@ export default function EpoxyProductsPage() {
               name: "Epoxy Products",
               itemListElement: products.map((p) => ({
                 "@type": "Offer",
-                "availability": "https://schema.org/InStore",
+                availability: "https://schema.org/InStore",
                 itemOffered: {
                   "@type": "Product",
                   name: p.name,
                   description: p.tagline,
+                  offers: {
+                    "@type": "Offer",
+                    availability: "https://schema.org/InStore",
+                    seller: {
+                      "@type": "Organization",
+                      name: "Decorative Concrete Supply",
+                    },
+                  },
                 },
               })),
             },
