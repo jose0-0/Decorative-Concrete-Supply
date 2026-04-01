@@ -495,6 +495,7 @@ export default function ColorHardenerPage() {
               itemListElement: [
                 {
                   "@type": "Offer",
+                "availability": "https://schema.org/InStore",
                   itemOffered: {
                     "@type": "Product",
                     name: "Brickform Color Hardener",
@@ -503,6 +504,7 @@ export default function ColorHardenerPage() {
                 },
                 {
                   "@type": "Offer",
+                "availability": "https://schema.org/InStore",
                   itemOffered: {
                     "@type": "Product",
                     name: "Brickform Antique Release",

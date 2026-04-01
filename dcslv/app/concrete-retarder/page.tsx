@@ -479,6 +479,7 @@ const Page = () => {
               itemListElement: [
                 {
                   "@type": "Offer",
+                "availability": "https://schema.org/InStore",
                   itemOffered: {
                     "@type": "Product",
                     name: "Brickform Select-Etch Concrete Surface Retarder",

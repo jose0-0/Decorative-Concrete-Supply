@@ -539,6 +539,7 @@ const page = () => {
               name: "Waterproofing Systems",
               itemListElement: systems.map((s) => ({
                 "@type": "Offer",
+                "availability": "https://schema.org/InStore",
                 itemOffered: {
                   "@type": "Product",
                   name: s.name,

@@ -629,6 +629,7 @@ const page = () => {
               name: "Concrete Sealers",
               itemListElement: products.map((p) => ({
                 "@type": "Offer",
+                "availability": "https://schema.org/InStore",
                 itemOffered: {
                   "@type": "Product",
                   name: p.name,

@@ -588,6 +588,7 @@ const page = () => {
               name: "DeWalt Power Tools",
               itemListElement: products.map((p) => ({
                 "@type": "Offer",
+                "availability": "https://schema.org/InStore",
                 itemOffered: {
                   "@type": "Product",
                   name: `DeWalt ${p.model} ${p.name}`,

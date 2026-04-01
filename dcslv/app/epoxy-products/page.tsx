@@ -540,6 +540,7 @@ export default function EpoxyProductsPage() {
               name: "Epoxy Products",
               itemListElement: products.map((p) => ({
                 "@type": "Offer",
+                "availability": "https://schema.org/InStore",
                 itemOffered: {
                   "@type": "Product",
                   name: p.name,

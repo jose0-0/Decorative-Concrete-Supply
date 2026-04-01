@@ -704,6 +704,7 @@ const Page = () => {
               name: "Rebar and Expansion Supplies",
               itemListElement: products.map((p) => ({
                 "@type": "Offer",
+                "availability": "https://schema.org/InStore",
                 itemOffered: {
                   "@type": "Product",
                   name: p.name,

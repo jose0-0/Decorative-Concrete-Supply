@@ -470,6 +470,7 @@ const page = () => {
               name: "Machine Rentals",
               itemListElement: rentals.map((r) => ({
                 "@type": "Offer",
+                "availability": "https://schema.org/InStore",
                 itemOffered: {
                   "@type": "Product",
                   name: r.name,
