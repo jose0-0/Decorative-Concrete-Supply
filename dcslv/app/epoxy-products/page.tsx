@@ -550,6 +550,7 @@ export default function EpoxyProductsPage() {
                     availability: "https://schema.org/InStoreOnly",
                     priceSpecification: {
                       "@type": "PriceSpecification",
+                      price: 0,
                       priceCurrency: "USD",
                     },
                     seller: {
