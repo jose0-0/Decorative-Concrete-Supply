@@ -503,6 +503,16 @@ const nextConfig = {
         destination: "/makita-tools",
         permanent: true,
       },
+      {
+        source: "/construction-tools-in-las-vegas-nevada",
+        destination: "/tools",
+        permanent: true,
+      },
+      {
+        source: "/construction-tools-in-las-vegas-nevada/",
+        destination: "/tools",
+        permanent: true,
+      },
     ];
   },
 };
