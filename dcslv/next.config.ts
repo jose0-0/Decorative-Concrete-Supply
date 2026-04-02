@@ -491,7 +491,6 @@ const nextConfig = {
         destination: "/water-proofing-systems",
         permanent: true,
       },
-
       // ─── TOOLS PAGES ───────────────────────────────────────────────────────
       {
         source: "/makita-tools-and-accessories",
@@ -511,6 +510,17 @@ const nextConfig = {
       {
         source: "/construction-tools-in-las-vegas-nevada/",
         destination: "/tools",
+        permanent: true,
+      },
+      // ─── BLOG PAGES ───────────────────────────────────────────────────────
+      {
+        source: "/blog/concrete-material-costs-2025",
+        destination: "/blog/concrete-material-costs-2026",
+        permanent: true,
+      },
+      {
+        source: "/blog/concrete-material-costs-2025/",
+        destination: "/blog/concrete-material-costs-2026",
         permanent: true,
       },
     ];
